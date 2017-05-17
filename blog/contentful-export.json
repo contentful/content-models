@@ -169,7 +169,7 @@
                 "id": "blogPost",
                 "type": "ContentType",
                 "createdAt": "2017-05-11T12:17:42.862Z",
-                "updatedAt": "2017-05-16T13:25:04.783Z",
+                "updatedAt": "2017-05-17T10:55:24.031Z",
                 "createdBy": {
                     "sys": {
                         "type": "Link",
@@ -184,8 +184,8 @@
                         "id": "066RqBikAjzKy0SWUEtFvH"
                     }
                 },
-                "publishedCounter": 4,
-                "version": 8,
+                "publishedCounter": 6,
+                "version": 12,
                 "publishedBy": {
                     "sys": {
                         "type": "Link",
@@ -193,9 +193,9 @@
                         "id": "066RqBikAjzKy0SWUEtFvH"
                     }
                 },
-                "publishedVersion": 7,
+                "publishedVersion": 11,
                 "firstPublishedAt": "2017-05-11T12:17:43.175Z",
-                "publishedAt": "2017-05-16T13:25:04.747Z"
+                "publishedAt": "2017-05-17T10:55:24.004Z"
             },
             "displayField": "title",
             "name": "Blog Post",
@@ -281,7 +281,7 @@
                 },
                 {
                     "id": "tags",
-                    "name": "tags",
+                    "name": "Tags",
                     "type": "Array",
                     "localized": false,
                     "required": false,
@@ -295,7 +295,7 @@
                                 "in": [
                                     "general",
                                     "javascript",
-                                    "static sites"
+                                    "static-sites"
                                 ]
                             }
                         ]
@@ -430,7 +430,7 @@
             "sys": {
                 "id": "default",
                 "type": "EditorInterface",
-                "version": 8,
+                "version": 12,
                 "createdAt": "2017-05-11T12:17:43.510Z",
                 "createdBy": {
                     "sys": {
@@ -453,7 +453,7 @@
                         "id": "blogPost"
                     }
                 },
-                "updatedAt": "2017-05-16T13:25:06.018Z",
+                "updatedAt": "2017-05-17T10:55:25.370Z",
                 "updatedBy": {
                     "sys": {
                         "type": "Link",
@@ -477,7 +477,7 @@
                 "id": "15jwOBqpxqSAOy2eOO4S0m",
                 "type": "Entry",
                 "createdAt": "2017-05-11T12:04:29.532Z",
-                "updatedAt": "2017-05-16T11:49:36.148Z",
+                "updatedAt": "2017-05-17T11:08:47.429Z",
                 "createdBy": {
                     "sys": {
                         "type": "Link",
@@ -492,8 +492,8 @@
                         "id": "066RqBikAjzKy0SWUEtFvH"
                     }
                 },
-                "publishedCounter": 11,
-                "version": 164,
+                "publishedCounter": 14,
+                "version": 171,
                 "publishedBy": {
                     "sys": {
                         "type": "Link",
@@ -501,9 +501,9 @@
                         "id": "066RqBikAjzKy0SWUEtFvH"
                     }
                 },
-                "publishedVersion": 163,
+                "publishedVersion": 170,
                 "firstPublishedAt": "2017-05-11T12:06:33.065Z",
-                "publishedAt": "2017-05-16T11:49:36.105Z",
+                "publishedAt": "2017-05-17T11:08:47.394Z",
                 "contentType": {
                     "sys": {
                         "type": "Link",
@@ -742,7 +742,7 @@
                 "id": "2PtC9h1YqIA6kaUaIsWEQ0",
                 "type": "Entry",
                 "createdAt": "2017-05-15T12:01:00.579Z",
-                "updatedAt": "2017-05-16T13:25:30.431Z",
+                "updatedAt": "2017-05-17T10:55:38.784Z",
                 "createdBy": {
                     "sys": {
                         "type": "Link",
@@ -757,8 +757,8 @@
                         "id": "066RqBikAjzKy0SWUEtFvH"
                     }
                 },
-                "publishedCounter": 5,
-                "version": 28,
+                "publishedCounter": 6,
+                "version": 31,
                 "publishedBy": {
                     "sys": {
                         "type": "Link",
@@ -766,9 +766,9 @@
                         "id": "066RqBikAjzKy0SWUEtFvH"
                     }
                 },
-                "publishedVersion": 27,
+                "publishedVersion": 30,
                 "firstPublishedAt": "2017-05-15T12:01:52.543Z",
-                "publishedAt": "2017-05-16T13:25:30.389Z",
+                "publishedAt": "2017-05-17T10:55:38.749Z",
                 "contentType": {
                     "sys": {
                         "type": "Link",
@@ -814,7 +814,7 @@
                 "tags": {
                     "en-US": [
                         "javascript",
-                        "static sites"
+                        "static-sites"
                     ]
                 }
             }

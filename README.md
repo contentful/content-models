@@ -6,3 +6,5 @@
 
 ## Current Content models:
 * [Blog](./blog): A simple blog example with one author, three blog entries and some images.
+* [tea](./the-example-app): The space used in all of our `the X example app`s, X ϵ {JS, Node, Java, Python, PHP,...}.
+

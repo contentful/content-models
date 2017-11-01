@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="581px" height="330px" viewBox="0 0 581 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TEA-content-model" transform="translate(17.000000, 19.000000)">
+            <g id="Group-3" transform="translate(279.000000, 148.000000)">
+                <polygon id="Fill-536" fill-opacity="0.15" fill="#524472" fill-rule="nonzero" points="0 54 119 54 119 0 0 0"></polygon>
+                <g id="Course" transform="translate(37.000000, 18.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text>
+                        <tspan x="0.194" y="14">Course</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(139.000000, 74.000000)">
+                <polygon id="Fill-536" fill-opacity="0.2" fill="#524472" fill-rule="nonzero" points="0 54 119 54 119 0 0 0"></polygon>
+                <g id="Layout-Course-Highli" transform="translate(4.000000, 8.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text id="Layout">
+                        <tspan x="33.758" y="14">Layout</tspan>
+                    </text>
+                    <text id="Course-Highlight">
+                        <tspan x="0.739" y="33">Course Highlight</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group">
+                <polygon id="Fill-539" fill-opacity="0.3" fill="#524472" fill-rule="nonzero" points="0 54 119 54 119 0 0 0"></polygon>
+                <g id="Layout" transform="translate(38.000000, 18.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text>
+                        <tspan x="0.258" y="14">Layout</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(421.000000, 222.000000)">
+                <polygon id="Fill-537" fill-opacity="0.1" fill="#524472" fill-rule="nonzero" points="0 54 119 54 119 0 0 0"></polygon>
+                <g id="Lesson" transform="translate(37.000000, 16.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text>
+                        <tspan x="0.471" y="14">Lesson</tspan>
+                    </text>
+                </g>
+            </g>
+            <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="60 54 60 101 139 101"></polyline>
+            <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="200 128 200 175 279 175"></polyline>
+            <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="342 202 342 249 421 249"></polyline>
+            <text id="one" fill="#000000" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
+                <tspan x="31.138" y="112">one</tspan>
+            </text>
+            <text id="one" fill="#000000" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
+                <tspan x="169.138" y="189">one</tspan>
+            </text>
+            <text id="many" fill="#000000" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
+                <tspan x="301.255" y="259">many</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

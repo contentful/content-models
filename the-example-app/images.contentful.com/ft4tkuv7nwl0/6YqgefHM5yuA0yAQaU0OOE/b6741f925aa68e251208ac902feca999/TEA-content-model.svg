@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1028px" height="426px" viewBox="0 0 1028 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(312.000000, 186.000000)">
+            <polygon id="Fill-536" fill="#00D3FF" points="0 54 119 54 119 0 0 0"></polygon>
+            <text id="Course" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                <tspan x="37.194" y="32">Course</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(172.000000, 112.000000)">
+            <polygon id="Fill-536" fill="#0A87ED" points="0 54 119 54 119 0 0 0"></polygon>
+            <text id="Layout-Course-Highli" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                <tspan x="37.758" y="22">Layout </tspan>
+                <tspan x="4.739" y="41">Course Highlight</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(33.000000, 38.000000)">
+            <polygon id="Fill-539" fill="#0A87ED" points="0 54 119 54 119 0 0 0"></polygon>
+            <text id="Layout" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                <tspan x="38.258" y="32">Layout</tspan>
+            </text>
+        </g>
+        <g id="Group-4" transform="translate(454.000000, 260.000000)">
+            <polygon id="Fill-537" fill="#00B7FF" points="0 54 119 54 119 0 0 0"></polygon>
+            <text id="Lesson" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                <tspan x="37.471" y="30">Lesson</tspan>
+            </text>
+        </g>
+        <g id="lesson-modules" transform="translate(515.000000, 314.000000)">
+            <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="0 0 0 47 359 47"></polyline>
+            <g id="Group-5" transform="translate(79.000000, 20.000000)">
+                <polygon id="Fill-538" fill="#2BA6F9" points="0 54 119 54 119 0 0 0"></polygon>
+                <text id="Lesson-Copy" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                    <tspan x="37.471" y="22">Lesson</tspan>
+                    <tspan x="42.42" y="41">Copy</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(218.000000, 20.000000)">
+                <polygon id="Fill-538" fill="#2BA6F9" points="0 54 119 54 119 0 0 0"></polygon>
+                <text id="Lesson-Image" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                    <tspan x="37.471" y="22">Lesson</tspan>
+                    <tspan x="39.004" y="41">Image</tspan>
+                </text>
+            </g>
+            <g id="Group-7" transform="translate(359.000000, 20.000000)">
+                <polygon id="Fill-538" fill="#2BA6F9" points="0 54 119 54 119 0 0 0"></polygon>
+                <text id="Lesson-Code-Snippet" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+                    <tspan x="37.471" y="22">Lesson</tspan>
+                    <tspan x="15.008" y="41">Code Snippet</tspan>
+                </text>
+            </g>
+        </g>
+        <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="93 92 93 139 172 139"></polyline>
+        <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="233 166 233 213 312 213"></polyline>
+        <polyline id="Path-2" stroke="#979797" stroke-dasharray="4" points="375 240 375 287 454 287"></polyline>
+        <text id="one" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+            <tspan x="64.138" y="150">one</tspan>
+        </text>
+        <text id="one" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+            <tspan x="202.138" y="227">one</tspan>
+        </text>
+        <text id="many" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+            <tspan x="334.255" y="297">many</tspan>
+        </text>
+        <text id="many" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#000000">
+            <tspan x="470.255" y="369">many</tspan>
+        </text>
+    </g>
+</svg>

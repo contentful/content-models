@@ -11,7 +11,7 @@ accomplished by this call to the command line app:
 contentful space seed the-example-app
 ```
 
-The app will then walk you through the needed steps in order to create a space based on it.
+The app will walk you through the steps needed in order to fill your space.
 
 Other apps
 ==========

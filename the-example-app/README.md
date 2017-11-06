@@ -20,3 +20,16 @@ The Node example app is not the only one. Soon™ there will be more available, 
 same space.
 
 Stay tuned for updates on the model and example apps.
+
+
+
+Credentials
+===========
+
+**⚠️WARNING: The following keys are just for demonstration purposes. Normally you would store them on a save place somwhere in the app, but for the demo, feel free to use them :WARNING⚠️**
+
+This example uses the following keys
+
+* Space ID: `ft4tkuv7nwl0`
+* Content Delivery API (CDA): `57459fe48bd2b1bef4855294455af52562dbc0c7f0eb84f8b2cd68692c186417`
+* Content Preview API (CPA): `a9972e3cd83528def2fc9d3428c67cd622eb26d0a24239718c6ac61fe0288f2f`

@@ -37,7 +37,7 @@ Stay tuned for updates on the model and example apps.
 Versions
 ========
 
-We are hosting versions of this content model for demo purposes. `The Example App` can be connected to these versions through `variables.env` when run locally or through query paramters when hosted. For example: https://the-example-app-nodejs.herokuapp.com/?space_id=<YOUR_CLONED_SPACE_ID>&delivery_token=<YOUR_DELIVERY_TOKEN>&preview_token=<YOUR_PREVIEW_TOKEN>
+We are hosting different versions of this content model for demo purposes. `The Example App` can be connected to these versions through `variables.env` when run locally or through query parameters when hosted. For example: https://the-example-app-nodejs.herokuapp.com/?space_id=<YOUR_CLONED_SPACE_ID>&delivery_token=<YOUR_DELIVERY_TOKEN>&preview_token=<YOUR_PREVIEW_TOKEN>
 
 | Version  | Space Id | Content Delivery API - access token | Content Preview API - access token |
 | - | - | - | - |
@@ -47,5 +47,5 @@ We are hosting versions of this content model for demo purposes. `The Example Ap
 
 Visual graph of content model
 =============================
-Using [contentful-graph](https://www.npmjs.com/package/contentful-graph) the following graph was generated to visualize the content model.
+The following graph was generated using [contentful-graph](https://www.npmjs.com/package/contentful-graph) to visualize the content model.
 ![graph of content model](https://raw.githubusercontent.com/contentful/content-models/master/the-example-app/the-example-app-space-v1.png)

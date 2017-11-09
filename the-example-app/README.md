@@ -1,4 +1,4 @@
-What is `The Example App model`?
+Content model: `The Example App`
 ================================
 
 The example app content model containts the model for all the example apps, demonstrating in a broader fashion some examples on how to use

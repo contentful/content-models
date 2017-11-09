@@ -43,7 +43,7 @@ We are hosting different versions of this content model for demo purposes. `The 
 | - | - | - | - |
 | 1.0 | `ft4tkuv7nwl0` | `57459fe48bd2b1bef4855294455af52562dbc0c7f0eb84f8b2cd68692c186417` | `a9972e3cd83528def2fc9d3428c67cd622eb26d0a24239718c6ac61fe0288f2f` |
 
-**Note:** We are sharing read-only tokens here for demo purposes. Tokens should in general be treated like passwords and not shared with a public audience.
+**Note:** We are sharing read-only tokens here for demo purposes. Tokens should in general be treated like passwords and not be shared with a public audience.
 
 Visual graph of content model
 =============================

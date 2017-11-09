@@ -48,4 +48,4 @@ We are hosting versions of this content model for demo purposes. `The Example Ap
 Visual graph of content model
 =============================
 
-![graph of content model](https://raw.githubusercontent.com/contentful/content-models/master/the-example-app/the-example-app-v1.png)
+![graph of content model](https://raw.githubusercontent.com/contentful/content-models/master/the-example-app/the-example-app-space-v1.png)

@@ -2,7 +2,8 @@ What is `The Example App model`?
 ================================
 
 The example app content model containts the model for all the example apps, demonstrating in a broader fashion some examples on how to use
-Contentful. If you want to see the model in action, we have a hosted version here: https://contentful-example-app.herokuapp.com/
+Contentful. If you want to see the model in action, we do have a [hosted version](https://contentful-example-app.herokuapp.com/), for you
+to check out.
 
 Through our [command line app](https://github.com/contentful/contentful-cli) you can push this model to your own space. Doing so will be
 accomplished by this call to the command line app:

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="284px" height="397px" viewBox="0 0 284 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M141,112 C141,112 141.31117,146 141,146" id="Path-2" stroke="#424242" stroke-dasharray="4" transform="translate(141.500000, 129.000000) scale(-1, 1) translate(-141.500000, -129.000000) "></path>
+        <path d="M140,212 C140,212 140.31117,231 140,231" id="Path-2" stroke="#424242" stroke-dasharray="4"></path>
+        <path d="M140,294 C140,294 140.31117,313 140,313" id="Path-2" stroke="#424242" stroke-dasharray="4"></path>
+        <g id="Group-4" transform="translate(17.000000, 16.000000)">
+            <polygon id="Fill-537" fill-opacity="0.3" fill="#524472" fill-rule="nonzero" points="0 93 250 93 250 0 0 0"></polygon>
+            <g id="Lesson" transform="translate(19.200772, 7.000000)" font-size="14" font-family="AvenirNext-DemiBold, Avenir Next" fill="#000000" font-weight="500">
+                <text id="Lesson-title:-Hello">
+                    <tspan x="0.0230820883" y="14">Lesson</tspan>
+                    <tspan x="44.0810821" y="14" font-family="AvenirNext-Medium, Avenir Next" font-weight="400"></tspan>
+                    <tspan x="0.0230820883" y="33" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">title: Hello Data</tspan>
+                    <tspan x="0.0230820883" y="52" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">slug: hello-data</tspan>
+                    <tspan x="0.0230820883" y="71" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">modules: </tspan>
+                </text>
+            </g>
+        </g>
+        <g id="lesson-modules" transform="translate(18.000000, 149.000000)">
+            <g id="Group-5">
+                <polygon id="Fill-538" fill-opacity="0.2" fill="#524472" fill-rule="nonzero" points="0 62 250 62 250 0 0 0"></polygon>
+                <g id="Lesson-Copy" transform="translate(21.000000, 8.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text id="Lesson-&gt;-Copy-copy:">
+                        <tspan x="0" y="14.1662913">Lesson &gt; Copy</tspan>
+                        <tspan x="0" y="33.1662913" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">copy: Lorem **Ipsum** foo</tspan>
+                        <tspan x="0" y="52.1662913" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">	 </tspan>
+                        <tspan x="0" y="71.1662913">	</tspan>
+                        <tspan x="0" y="90.1662913">	</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(0.000000, 164.000000)">
+                <polygon id="Fill-538" fill-opacity="0.2" fill="#524472" fill-rule="nonzero" points="0 62 250 62 250 0 0 0"></polygon>
+                <g id="Lesson-Copy" transform="translate(21.000000, 8.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text id="Lesson-&gt;-Copy-copy:">
+                        <tspan x="0" y="14.1662913">Lesson &gt; Copy</tspan>
+                        <tspan x="0" y="33.1662913" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">copy: Lorem **Ipsum** foo</tspan>
+                        <tspan x="0" y="52.1662913" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">	 </tspan>
+                        <tspan x="0" y="71.1662913">	</tspan>
+                        <tspan x="0" y="90.1662913">	</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(0.000000, 82.000000)">
+                <polygon id="Fill-538" fill-opacity="0.2" fill="#524472" fill-rule="nonzero" points="0 62 250 62 250 0 0 0"></polygon>
+                <g id="Lesson-Copy" transform="translate(21.000000, 8.000000)" font-size="14" font-family="AvenirNext-Medium, Avenir Next" fill="#000000" font-weight="400">
+                    <text id="Lesson-&gt;-Image-image">
+                        <tspan x="0" y="14.1662913">Lesson &gt; Image</tspan>
+                        <tspan x="0" y="33.1662913" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">image: foo.png</tspan>
+                        <tspan x="0" y="52.1662913" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">	 </tspan>
+                        <tspan x="0" y="71.1662913">	</tspan>
+                        <tspan x="0" y="90.1662913">	</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+        <text id="one…many" fill="#000000" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
+            <tspan x="54" y="131">one…many</tspan>
+        </text>
+    </g>
+</svg>

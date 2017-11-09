@@ -1,18 +1,18 @@
-What is `The Example App model`?
+Content model: `The Example App`
 ================================
 
 The example app content model containts the model for all the example apps, demonstrating in a broader fashion some examples on how to use
-Contentful. If you want to see the model in action, we do have a [hosted version](https://contentful-example-app.herokuapp.com/), for you
+Contentful. If you want to see the model in action, we have a [hosted version](https://the-example-app-nodejs.herokuapp.com/), for you
 to check out.
 
-Through our [command line app](https://github.com/contentful/contentful-cli) you can push this model to your own space. Doing so will be
+Through our [command line app](https://github.com/contentful/contentful-cli) you can import this model into your own space. Doing so will be
 accomplished by this call to the command line app:
 
 ```
 contentful space seed -s '<SPACE_ID>' -t the-example-app
 ```
 
-The app will walk you through the steps needed in order to fill your space.
+The Contentful CLI will walk you through the steps needed in order to import this content model into your space.
 
 If you happen to not have a `<SPACE_ID>`, as in a Space you can overwrite, use the cli to create a new one:
 
@@ -34,13 +34,19 @@ Stay tuned for updates on the model and example apps.
 
 
 
-Credentials
-===========
+Versions
+========
 
-**⚠️WARNING: The following keys are just for demonstration purposes. Normally you would store them on a save place somwhere in the app, but for the demo, feel free to use them :WARNING⚠️**
+We are hosting different versions of this content model for demo purposes. `The Example App` can be connected to these versions through `variables.env` when run locally or through query parameters when hosted. For example: `https://the-example-app-nodejs.herokuapp.com/?space_id=<YOUR_CLONED_SPACE_ID>&delivery_token=<YOUR_DELIVERY_TOKEN>&preview_token=<YOUR_PREVIEW_TOKEN>`
 
-This example uses the following keys
+| Version  | Space Id | Content Delivery API - access token | Content Preview API - access token |
+| - | - | - | - |
+| 1.0 | `ft4tkuv7nwl0` | `57459fe48bd2b1bef4855294455af52562dbc0c7f0eb84f8b2cd68692c186417` | `a9972e3cd83528def2fc9d3428c67cd622eb26d0a24239718c6ac61fe0288f2f` |
 
-* Space ID: `qz0n5cdakyl9`
-* Content Delivery API (CDA): `580d5944194846b690dd89b630a1cb98a0eef6a19b860ef71efc37ee8076ddb8`
-* Content Preview API (CPA): `e8fc39d9661c7468d0285a7ff949f7a23539dd2e686fcb7bd84dc01b392d698b`
+**Note:** We are sharing read-only tokens here for demo purposes. Tokens should in general be treated like passwords and not be shared with a public audience.
+
+Visual graph of content model
+=============================
+The following graph was generated using [contentful-graph](https://www.npmjs.com/package/contentful-graph) to visualize the content model.
+
+<img src="the-example-app-space-v1.png" width="300" />

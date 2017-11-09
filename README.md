@@ -6,5 +6,5 @@
 
 ## Current Content models:
 * [Blog](./blog): A simple blog example with one author, three blog entries and some images.
-* [The Example App](./the-example-app): An example space mocking an online learning platform. This space is used in [The node.js example app](https://github.com/contentful/the-example-app.nodejs).
+* [The Example App](./the-example-app): An example space simulating an online learning platform. This space is used in [The node.js example app](https://github.com/contentful/the-example-app.nodejs).
 

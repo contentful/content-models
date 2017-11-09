@@ -1,4 +1,4 @@
-Content model: `The Example App`
+Content model: The example app
 ================================
 
 The example app content model containts the model for all the example apps, demonstrating in a broader fashion some examples on how to use

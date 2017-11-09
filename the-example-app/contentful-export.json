@@ -12,7 +12,7 @@
         "id": "category",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.310Z",
-        "updatedAt": "2017-11-01T12:07:27.783Z",
+        "updatedAt": "2017-11-08T13:51:45.598Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -24,21 +24,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 4,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 5,
+        "publishedVersion": 7,
         "firstPublishedAt": "2017-11-01T11:46:13.291Z",
-        "publishedAt": "2017-11-01T12:07:27.783Z"
+        "publishedAt": "2017-11-08T13:51:45.598Z"
       },
       "displayField": "title",
       "name": "Category",
@@ -48,7 +48,7 @@
           "id": "title",
           "name": "Title",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
           ],
@@ -78,7 +78,7 @@
           "validations": [
           ],
           "disabled": false,
-          "omitted": false
+          "omitted": true
         }
       ]
     },
@@ -189,7 +189,7 @@
         "id": "lessonCodeSnippets",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.316Z",
-        "updatedAt": "2017-11-01T12:05:53.047Z",
+        "updatedAt": "2017-11-08T14:43:27.833Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -201,21 +201,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 5,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 3,
+        "publishedVersion": 9,
         "firstPublishedAt": "2017-11-01T11:46:13.991Z",
-        "publishedAt": "2017-11-01T12:05:53.047Z"
+        "publishedAt": "2017-11-08T14:43:27.833Z"
       },
       "displayField": "title",
       "name": "Lesson > Code Snippets",
@@ -228,27 +228,20 @@
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "For module titles, please use the form parent > description as this title is internal only and helps to identify the module."
+            }
           ],
           "disabled": false,
           "omitted": false
         },
         {
-          "id": "slug",
-          "name": "Slug",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            }
-          ],
-          "disabled": false,
-          "omitted": true
-        },
-        {
           "id": "curl",
-          "name": "Curl",
+          "name": "cURL",
           "type": "Text",
           "localized": false,
           "required": false,
@@ -454,7 +447,7 @@
         "id": "lessonCopy",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.387Z",
-        "updatedAt": "2017-11-01T12:05:36.418Z",
+        "updatedAt": "2017-11-08T14:25:04.831Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -466,21 +459,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 5,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 5,
+        "publishedVersion": 9,
         "firstPublishedAt": "2017-11-01T11:46:10.529Z",
-        "publishedAt": "2017-11-01T12:05:36.418Z"
+        "publishedAt": "2017-11-08T14:25:04.831Z"
       },
       "displayField": "title",
       "name": "Lesson > Copy",
@@ -493,6 +486,13 @@
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "For module titles, please use the form parent > description as this title is internal only and helps to identify the module."
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -501,7 +501,7 @@
           "id": "copy",
           "name": "Copy",
           "type": "Text",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
           ],
@@ -522,7 +522,7 @@
         "id": "lessonImage",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.395Z",
-        "updatedAt": "2017-11-01T12:05:17.917Z",
+        "updatedAt": "2017-11-08T14:42:57.431Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -534,21 +534,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 5,
+        "publishedVersion": 11,
         "firstPublishedAt": "2017-11-01T11:46:07.410Z",
-        "publishedAt": "2017-11-01T12:05:17.917Z"
+        "publishedAt": "2017-11-08T14:42:57.431Z"
       },
       "displayField": "title",
       "name": "Lesson > Image",
@@ -561,6 +561,13 @@
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "For module titles, please use the form parent > description as this title is internal only and helps to identify the module."
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -576,6 +583,17 @@
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
+        },
+        {
+          "id": "caption",
+          "name": "Caption",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
         }
       ]
     },
@@ -591,7 +609,7 @@
         "id": "layoutHeroImage",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.620Z",
-        "updatedAt": "2017-11-01T11:46:07.867Z",
+        "updatedAt": "2017-11-08T14:44:05.470Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -603,21 +621,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2017-11-01T11:46:07.867Z",
-        "publishedAt": "2017-11-01T11:46:07.867Z"
+        "publishedAt": "2017-11-08T14:44:05.470Z"
       },
       "displayField": "title",
       "name": "Layout > Hero Image",
@@ -630,6 +648,13 @@
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "For module titles, please use the form parent > description as this title is internal only and helps to identify the module."
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -671,7 +696,7 @@
         "id": "layoutHighlightedCourse",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.622Z",
-        "updatedAt": "2017-11-01T11:46:08.488Z",
+        "updatedAt": "2017-11-08T14:44:29.155Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -683,21 +708,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2017-11-01T11:46:08.488Z",
-        "publishedAt": "2017-11-01T11:46:08.488Z"
+        "publishedAt": "2017-11-08T14:44:29.155Z"
       },
       "displayField": "title",
       "name": "Layout > Highlighted Course",
@@ -710,6 +735,13 @@
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "For module titles, please use the form parent > description as this title is internal only and helps to identify the module."
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -745,7 +777,7 @@
         "id": "course",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.872Z",
-        "updatedAt": "2017-11-01T11:46:09.396Z",
+        "updatedAt": "2017-11-08T15:47:24.109Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -757,21 +789,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 12,
+        "version": 24,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 23,
         "firstPublishedAt": "2017-11-01T11:46:09.396Z",
-        "publishedAt": "2017-11-01T11:46:09.396Z"
+        "publishedAt": "2017-11-08T15:47:24.109Z"
       },
       "displayField": "title",
       "name": "Course",
@@ -781,7 +813,7 @@
           "id": "title",
           "name": "Title",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
           ],
@@ -815,7 +847,7 @@
           "id": "shortDescription",
           "name": "Short Description",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
           ],
@@ -826,7 +858,7 @@
           "id": "description",
           "name": "Description",
           "type": "Text",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
           ],
@@ -853,9 +885,9 @@
           "validations": [
             {
               "in": [
-                "Beginner",
-                "Intermediate",
-                "Advanced"
+                "beginner",
+                "intermediate",
+                "advanced"
               ]
             }
           ],
@@ -889,7 +921,7 @@
           "name": "Categories",
           "type": "Array",
           "localized": false,
-          "required": false,
+          "required": true,
           "validations": [
           ],
           "disabled": false,
@@ -920,7 +952,7 @@
         "id": "layoutCopy",
         "type": "ContentType",
         "createdAt": "2017-11-01T11:46:06.956Z",
-        "updatedAt": "2017-11-01T11:46:08.882Z",
+        "updatedAt": "2017-11-08T14:23:23.355Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -932,21 +964,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2017-11-01T11:46:08.882Z",
-        "publishedAt": "2017-11-01T11:46:08.882Z"
+        "publishedAt": "2017-11-08T14:23:23.355Z"
       },
       "displayField": "title",
       "name": "Layout > Copy",
@@ -959,6 +991,13 @@
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "For module titles, please use the form parent > description as this title is internal only and helps to identify the module."
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -1050,7 +1089,7 @@
             "linkType": "Space"
           }
         },
-        "version": 6,
+        "version": 8,
         "createdAt": "2017-11-01T11:46:13.385Z",
         "createdBy": {
           "sys": {
@@ -1059,10 +1098,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T12:07:28.346Z",
+        "updatedAt": "2017-11-08T13:51:46.097Z",
         "updatedBy": {
           "sys": {
-            "id": "08JDkM79BdUNkxcmfnt78J",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1168,7 +1207,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 10,
         "createdAt": "2017-11-01T11:46:14.274Z",
         "createdBy": {
           "sys": {
@@ -1177,10 +1216,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T12:05:54.649Z",
+        "updatedAt": "2017-11-08T14:43:28.325Z",
         "updatedBy": {
           "sys": {
-            "id": "08JDkM79BdUNkxcmfnt78J",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1200,13 +1239,6 @@
             "helpText": "The title for content editors to find entries in Contentful. It is not necessarily relevant for display in connected applications."
           },
           "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "slug",
-          "settings": {
-            "helpText": "An autogenerated url-safe and human-readable identifier for this module."
-          },
-          "widgetId": "slugEditor"
         },
         {
           "fieldId": "curl",
@@ -1318,7 +1350,7 @@
             "linkType": "Space"
           }
         },
-        "version": 6,
+        "version": 10,
         "createdAt": "2017-11-01T11:46:10.672Z",
         "createdBy": {
           "sys": {
@@ -1327,10 +1359,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T12:05:37.072Z",
+        "updatedAt": "2017-11-08T14:25:05.278Z",
         "updatedBy": {
           "sys": {
-            "id": "08JDkM79BdUNkxcmfnt78J",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1365,7 +1397,7 @@
             "linkType": "Space"
           }
         },
-        "version": 6,
+        "version": 12,
         "createdAt": "2017-11-01T11:46:07.522Z",
         "createdBy": {
           "sys": {
@@ -1374,10 +1406,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T12:05:18.530Z",
+        "updatedAt": "2017-11-08T14:42:58.024Z",
         "updatedBy": {
           "sys": {
-            "id": "08JDkM79BdUNkxcmfnt78J",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1398,6 +1430,10 @@
         {
           "fieldId": "image",
           "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "caption",
+          "widgetId": "singleLine"
         }
       ]
     },
@@ -1412,7 +1448,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2017-11-01T11:46:08.012Z",
         "createdBy": {
           "sys": {
@@ -1421,10 +1457,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T11:46:15.177Z",
+        "updatedAt": "2017-11-08T14:44:05.956Z",
         "updatedBy": {
           "sys": {
-            "id": "6lLQmABUWbGOsBJ8pMV4vI",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1472,7 +1508,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2017-11-01T11:46:08.580Z",
         "createdBy": {
           "sys": {
@@ -1481,10 +1517,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T11:46:15.165Z",
+        "updatedAt": "2017-11-08T14:44:29.675Z",
         "updatedBy": {
           "sys": {
-            "id": "6lLQmABUWbGOsBJ8pMV4vI",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1525,7 +1561,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 24,
         "createdAt": "2017-11-01T11:46:09.518Z",
         "createdBy": {
           "sys": {
@@ -1534,10 +1570,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T11:46:15.335Z",
+        "updatedAt": "2017-11-08T15:47:24.785Z",
         "updatedBy": {
           "sys": {
-            "id": "6lLQmABUWbGOsBJ8pMV4vI",
+            "id": "7uJNojWP0gbuP7Pplz7Syo",
             "type": "Link",
             "linkType": "User"
           }
@@ -1629,7 +1665,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2017-11-01T11:46:09.054Z",
         "createdBy": {
           "sys": {
@@ -1638,10 +1674,10 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2017-11-01T11:46:15.199Z",
+        "updatedAt": "2017-11-08T14:23:24.317Z",
         "updatedBy": {
           "sys": {
-            "id": "6lLQmABUWbGOsBJ8pMV4vI",
+            "id": "5NItczv8FWvPn5UTJpTOMM",
             "type": "Link",
             "linkType": "User"
           }
@@ -1710,190 +1746,10 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "3tLGih0WD6yscqCKqgyckw",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:52.300Z",
-        "updatedAt": "2017-11-01T11:47:35.212Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:35.212Z",
-        "publishedAt": "2017-11-01T11:47:35.212Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "image-content-model-all"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4WSqAVKz0kWs0GkUOsIeEu"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "6T1ogxRLpussqguyqA0WUo",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:52.309Z",
-        "updatedAt": "2017-11-01T11:47:37.566Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:37.566Z",
-        "publishedAt": "2017-11-01T11:47:37.566Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "modular-content-image"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4KsXzBUVjaS4oIGIMEmoCS"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "4l8lm7xi24qEkqieGki0uo",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:52.320Z",
-        "updatedAt": "2017-11-01T11:47:37.073Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:37.073Z",
-        "publishedAt": "2017-11-01T11:47:37.073Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "modular-content-copy-outro"
-        },
-        "copy": {
-          "en-US": "Some outro text"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "jQuyw6O6k0OuYiEsAGK2O",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.336Z",
-        "updatedAt": "2017-11-01T11:47:35.710Z",
+        "updatedAt": "2017-11-08T13:33:09.112Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1905,21 +1761,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 16,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 15,
         "firstPublishedAt": "2017-11-01T11:47:35.710Z",
-        "publishedAt": "2017-11-01T11:47:35.710Z",
+        "publishedAt": "2017-11-08T13:33:09.112Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1930,72 +1786,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "modular-content-copy-intro"
+          "en-US": "Modular content > Copy"
         },
         "copy": {
-          "en-US": "Authors often want full freedom when composing a piece of editorial content out of sub elements such as blocks of text, images, videos, headlines. While an old CMS could give you basic capabilities out of the box, thanks to a modular approach, Contentful enables lets you achieve greater modularity a flexibility. By using reference fields, you are capable of linking entries to other entries, and manage them in any way you want. With this approach, a _module_ content type holds content only, and has no information about how it is displayed. All these concerns are delegated to the entry that is embedding the module."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "1PfvTlc2UIEOqECCKaAkym",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:52.366Z",
-        "updatedAt": "2017-11-01T11:46:58.793Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:46:58.793Z",
-        "publishedAt": "2017-11-01T11:46:58.793Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "layoutCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "About page copy"
-        },
-        "headline": {
-          "en-US": "About"
-        },
-        "copy": {
-          "en-US": "## About\n\nThis app is an imaginary online learning platform that we call The Example App. The goal in creating this app is to provide you with an example Contentful space connected to an example application which help teach you how content is managed using Contentful, and delivered to authenticated apps using powereful APIs. It should make clear the connection between content that lives in a space in Contentful and the applications leveraging Contentful's SDKs to pull that content.\n\nIn the [Contentful web app](https://app.contentful.com), you can make copy of this space so you can make content changes and see them propagate in the app—make sure to update the _Space ID_ and the _Delivery API Key_ in the settings page of this app to connect your copy of the space to this app.\n\nYou can also browse the code for this app to learn best practices for development when using Contentful's SDKs. Contentful offers officially supported SDK's in JavaScript, Ruby, Java, Python, .Net, PHP, and Swift, so we've made sure to provide a separate implementation of this app in all of those languages so you can get the most out of this reference, no matter what language you write code in.\n\n## Imprint\n\n\n\n"
-        },
-        "visualStyle": {
-          "en-US": "Default"
+          "en-US": "Authors often want full freedom when composing a piece of editorial content out of sub elements such as blocks of text, images, videos, headlines. While an old CMS could give you basic capabilities out of the box, thanks to a modular approach, Contentful enables lets you achieve greater modularity a flexibility. By using reference fields, you are capable of linking entries to other entries, and manage them in any way you want. With this approach, a _module_ content type holds content only, and has no information about how it is displayed. All these concerns are delegated to the entry that is embedding the module.\n\n"
         }
       }
     },
@@ -2011,7 +1805,7 @@
         "id": "1zT9Oo7bcIgo0GMSc26wWW",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.375Z",
-        "updatedAt": "2017-11-01T11:47:36.392Z",
+        "updatedAt": "2017-11-08T11:03:45.993Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2023,21 +1817,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "0w7AzFDgzUA8MWo79R1Qf7"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 32,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "0w7AzFDgzUA8MWo79R1Qf7"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 31,
         "firstPublishedAt": "2017-11-01T11:47:36.392Z",
-        "publishedAt": "2017-11-01T11:47:36.392Z",
+        "publishedAt": "2017-11-08T11:03:45.993Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2050,11 +1844,8 @@
         "title": {
           "en-US": "code snippets for search on reference"
         },
-        "slug": {
-          "en-US": "snippets-search-on-reference"
-        },
         "dotNet": {
-          "en-US": "// contentful.csharp 0.10.x\n// This client should only be created once per application.\nvar httpClient = new HttpClient();\n\nvar client = new ContentfulClient(httpClient, \"<content_delivery_api_key>\", \"<space_id>\");\n\nvar queryBuilder = QueryBuilder<YourClass>.New.ContentTypeIs(\"<content_type_id>\")\n    .FieldEquals(\"fields.brand.sys.contentType.sys.id\", \"<value>\")\n    .FieldEquals(\"fields.brand.fields.companyName\", \"Lemnos\");\nvar entries = await client.GetEntriesAsync(queryBuilder);\n\n// You can also use strong typing if your model class includes the field as a property.\n\nvar queryBuilder = QueryBuilder<YourClass>.New.ContentTypeIs(\"<content_type_id>\").FieldEquals(f => f.Brand.SystemProperties.ContentType.SystemProperties.Id, \"<value>\").FieldEquals(f => f.Brand.CompanyName, \"Lemnos\");\nvar entries = await client.GetEntriesAsync(queryBuilder);\n"
+          "en-US": "// contentful.csharp 2.x.x\n// This client should only be created once per application.\nvar httpClient = new HttpClient();\n\nvar client = new ContentfulClient(httpClient, \"<content_delivery_api_key>\", \"<content_preview_api_key>\", \"<space_id>\");\n\nvar queryBuilder = QueryBuilder<YourClass>.New.ContentTypeIs(\"<content_type_id>\").FieldEquals(f => f.Brand.Sys.ContentType.Sys.Id, \"<value>\").FieldEquals(f => f.Brand.CompanyName, \"Lemnos\");\nvar entries = await client.GetEntries(queryBuilder);\n"
         },
         "javascript": {
           "en-US": "// contentful.js v4.x.x\nconst contentful = require('contentful')\n\nconst client = contentful.createClient({\n  space: '<space_id>',\n  accessToken: '<content_delivery_api_key>'\n})\n\n// Provide the contentTypeId of the parent and child entry to be able\n// to search on field values of the child entry.\nclient.getEntries({\n  'content_type':'<content_type_id>',\n  'fields.<field_name>.sys.contentType.sys.id': 'cat',\n  'fields.<field_name>.fields.name[match]': 'Happy Cat'\n})\n.then((response) => console.log(response.items))\n.catch(console.error)\n"
@@ -2091,7 +1882,7 @@
         "id": "4AkF9pS1rOWEmO0k6YEC4q",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.641Z",
-        "updatedAt": "2017-11-01T11:46:59.712Z",
+        "updatedAt": "2017-11-08T13:39:27.398Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2103,21 +1894,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 5,
         "firstPublishedAt": "2017-11-01T11:46:59.712Z",
-        "publishedAt": "2017-11-01T11:46:59.712Z",
+        "publishedAt": "2017-11-08T13:39:27.398Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2146,14 +1937,7 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "6T1ogxRLpussqguyqA0WUo"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4l8lm7xi24qEkqieGki0uo"
+                "id": "2VtCrK0G5OoeWCSQCWY8MW"
               }
             }
           ]
@@ -2172,7 +1956,7 @@
         "id": "4oCAObcexaAWM4EEk0usWY",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.646Z",
-        "updatedAt": "2017-11-01T11:46:59.288Z",
+        "updatedAt": "2017-11-08T15:38:42.394Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2184,21 +1968,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2017-11-01T11:46:59.288Z",
-        "publishedAt": "2017-11-01T11:46:59.288Z",
+        "publishedAt": "2017-11-08T15:38:42.393Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2230,7 +2014,7 @@
           "en-US": "Content modelling is the practice of structuring your content by grouping information into logical elements. We call these logical elements _content types_, and we populate the relevant information in the _fields_ for these content types. Relationships can also be made between content types enabling you to model complex information. This course will teach you all the nitty, gritty details of content modeling, giving you tips and tricks to help you build a flexible and powerful content model."
         },
         "skillLevel": {
-          "en-US": "Beginner"
+          "en-US": "beginner"
         },
         "lessons": {
           "en-US": [
@@ -2351,7 +2135,7 @@
         "id": "34MlmiuMgU8wKCOOIkAuMy",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.695Z",
-        "updatedAt": "2017-11-01T11:47:02.924Z",
+        "updatedAt": "2017-11-08T15:38:29.190Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2363,21 +2147,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 4,
+        "version": 208,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 207,
         "firstPublishedAt": "2017-11-01T11:47:02.924Z",
-        "publishedAt": "2017-11-01T11:47:02.924Z",
+        "publishedAt": "2017-11-08T15:38:29.190Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2391,7 +2175,7 @@
           "en-US": "How this application is built"
         },
         "slug": {
-          "en-US": "example-application"
+          "en-US": "how-this-application-is-built"
         },
         "image": {
           "en-US": {
@@ -2403,16 +2187,16 @@
           }
         },
         "shortDescription": {
-          "en-US": "How does this application you are currently browsing through actually work?"
+          "en-US": "Learn about best practices when building an application."
         },
         "description": {
-          "en-US": "The example application was made to be used as a reference while you make your first steps with Contentful. By looking at the code, you should get a sense of how to use our SDKs. While using the code, you may notice some third party dependencies that were used in writing the app, but we will not teach you these frameworks. Instead, we’ll focus on solidifying your understanding of Contentful in code so you can build your applications using one of our SDKs.\n\nThe example application has a separate implementation for each programming language that Contentful offers an official SDK for. You're advised to select the appropriate programming language to get the most out of the code samples you'll see."
+          "en-US": "By looking at the code of the example app, you will get a sense of how to use a Contentful SDK in your programming language. For any third-party dependency, refer to its documentation."
         },
         "duration": {
           "en-US": 60
         },
         "skillLevel": {
-          "en-US": "Beginner"
+          "en-US": "beginner"
         },
         "lessons": {
           "en-US": [
@@ -2478,7 +2262,7 @@
         "id": "2uNOpLMJioKeoMq8W44uYc",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.820Z",
-        "updatedAt": "2017-11-01T11:47:01.128Z",
+        "updatedAt": "2017-11-08T15:23:05.727Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2490,21 +2274,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 6,
+        "version": 17,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 15,
         "firstPublishedAt": "2017-11-01T11:47:01.128Z",
-        "publishedAt": "2017-11-01T11:47:01.128Z",
+        "publishedAt": "2017-11-08T15:21:37.896Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2526,14 +2310,14 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "3Tz0Ja9A5y2I0IwOk8Uq8M"
+                "id": "4B9n4zqG6QCgui8YiUs4Yc"
               }
             },
             {
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "4B9n4zqG6QCgui8YiUs4Yc"
+                "id": "6vTvFm3m5qwesGIeCOkq40"
               }
             }
           ]
@@ -2552,7 +2336,7 @@
         "id": "3jkW4CdxPqu8Q2oSgCeOuy",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.938Z",
-        "updatedAt": "2017-11-01T11:47:04.212Z",
+        "updatedAt": "2017-11-08T12:42:41.499Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2564,21 +2348,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 4,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 11,
         "firstPublishedAt": "2017-11-01T11:47:04.212Z",
-        "publishedAt": "2017-11-01T11:47:04.212Z",
+        "publishedAt": "2017-11-08T12:42:41.499Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2589,7 +2373,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Fetching an entry with the SDK"
+          "en-US": "Fetch all entries"
         },
         "slug": {
           "en-US": "example-application-sdk-getting-data"
@@ -2609,13 +2393,6 @@
                 "linkType": "Entry",
                 "id": "3QJuO2TNxm0OqSgIMaoCwi"
               }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5mIOYe76Dukk46MKyGS0cU"
-              }
             }
           ]
         }
@@ -2633,7 +2410,7 @@
         "id": "5p9qNpTOJaCE6ykC4a8Wqg",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.941Z",
-        "updatedAt": "2017-11-01T11:47:03.790Z",
+        "updatedAt": "2017-11-08T15:42:43.861Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2645,21 +2422,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 5,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 53,
         "firstPublishedAt": "2017-11-01T11:47:03.790Z",
-        "publishedAt": "2017-11-01T11:47:03.790Z",
+        "publishedAt": "2017-11-08T15:42:43.861Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2670,10 +2447,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "How we modelled content for this app"
+          "de-DE": "Content-Modell",
+          "en-US": "Content model"
         },
         "slug": {
-          "en-US": "how-we-modelled-content-for-this-app"
+          "en-US": "content-model"
         },
         "modules": {
           "en-US": [
@@ -2688,21 +2466,7 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "5HKk51FTVK0kKCK4iACoOA"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3psVfETxUImsIk4isMOKkA"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3tLGih0WD6yscqCKqgyckw"
+                "id": "6gFiJvssqQ62CMYqECOu2M"
               }
             }
           ]
@@ -2721,7 +2485,7 @@
         "id": "1HR1QvURo4MoSqO0eqmUeO",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:52.946Z",
-        "updatedAt": "2017-11-01T11:47:04.630Z",
+        "updatedAt": "2017-11-08T12:43:07.728Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2733,21 +2497,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 9,
         "firstPublishedAt": "2017-11-01T11:47:04.630Z",
-        "publishedAt": "2017-11-01T11:47:04.630Z",
+        "publishedAt": "2017-11-08T12:43:07.728Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2758,7 +2522,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Serving content in the right language"
+          "en-US": "Serve localized content"
         },
         "slug": {
           "en-US": "example-application-locale"
@@ -2802,7 +2566,7 @@
         "id": "Dy6jo5j4goU2C4sc8Kwkk",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.239Z",
-        "updatedAt": "2017-11-01T11:47:05.437Z",
+        "updatedAt": "2017-11-08T12:45:03.298Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2814,21 +2578,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 6,
         "firstPublishedAt": "2017-11-01T11:47:05.437Z",
-        "publishedAt": "2017-11-01T11:47:05.437Z",
+        "publishedAt": "2017-11-08T12:45:03.298Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2839,7 +2603,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Fetch draft content with the SDK"
+          "en-US": "Fetch draft content"
         },
         "slug": {
           "en-US": "example-application-preview"
@@ -2883,7 +2647,7 @@
         "id": "1zwAjpe38UC8iqKMM6gu0Q",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.247Z",
-        "updatedAt": "2017-11-01T11:47:06.041Z",
+        "updatedAt": "2017-11-08T15:42:57.899Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2895,21 +2659,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 27,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 25,
         "firstPublishedAt": "2017-11-01T11:47:06.041Z",
-        "publishedAt": "2017-11-01T11:47:06.041Z",
+        "publishedAt": "2017-11-08T13:44:40.824Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2920,10 +2684,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "The connection between this app and Contentful's Web app"
+          "de-DE": "Content Management",
+          "en-US": "Content management"
         },
         "slug": {
-          "en-US": "the-connection-between-this-app-and-contentfuls-web-app"
+          "en-US": "content-management"
         },
         "modules": {
           "en-US": [
@@ -2932,20 +2697,6 @@
                 "type": "Link",
                 "linkType": "Entry",
                 "id": "1AqQQzRvKAkEOekuMUcQIY"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4te7lOGjyg8Uy64YyiQU84"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1h514SQSMggg4UeosKE8KC"
               }
             },
             {
@@ -2971,7 +2722,7 @@
         "id": "1toEOumnkEksWakieoeC6M",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.305Z",
-        "updatedAt": "2017-11-01T11:47:03.377Z",
+        "updatedAt": "2017-11-08T15:45:46.637Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2983,21 +2734,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "4SejVrWT96dvL9IV4Nb7sQ"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 7,
+        "version": 1500,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 1495,
         "firstPublishedAt": "2017-11-01T11:47:03.377Z",
-        "publishedAt": "2017-11-01T11:47:03.377Z",
+        "publishedAt": "2017-11-08T15:42:07.796Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3008,31 +2759,41 @@
       },
       "fields": {
         "title": {
-          "en-US": "Hello World"
+          "de-DE": "Hallo Welt",
+          "en-US": "Hello world"
         },
         "slug": {
           "en-US": "hello-world"
         },
         "image": {
+          "de-DE": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3z7ErmBLIccwQkQkuEY0w4"
+            }
+          },
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "5DFyCspBe0iQYkEAwEA6Iq"
+              "id": "3z7ErmBLIccwQkQkuEY0w4"
             }
           }
         },
         "shortDescription": {
-          "en-US": "This is an example to reference while building your own apps with Contentful. This course explains fetching content and creating a custom UI."
+          "de-DE": "Lernen Sie, wie Sie Anwendungen mit Contentful bauen.",
+          "en-US": "Learn how to build your own applications with Contentful."
         },
         "description": {
-          "en-US": "This is an example built to serve as a reference for building your own applications using Contentful. It is an online learning platform in which the courses teach how Contentful was used to build this app (so meta)! The content is pulled from Contentful’s APIs via our different SDKs. The user-interface is custom built for this application and _not_ a template provided by Contentful. As you will learn in this course, not providing a template is one of the defining features of a headless CMS.\n\nIn just about 5 minutes, this course will explain the basics of how Contentful can be used to manage content in your production applications. It will demonstrate important concepts by showing how this example application was built and how the content it renders was modelled.\n\nQuestions that will be answered in this course:\n\n- **Contentful's architecture:** What are the basic aspects of Contentful?\n- **Content model:** How was the data that this app is rendering modelled?\n- **Integrating with Contentful:** How was __*this*__ app built and how does it connect to Contentfuls APIs?\n\n\nIf you prefer to get your hands dirty right away, check out this app on [Github](https://images.contentful.com/82t39nctsu20/1JOkYZnY8YG0w88ImweME2/c8aef71dfe1ea633e16e17d99379416c/Github-repo_2x__1_.png)."
+          "de-DE": "Diese Beispielanwendung hilft Ihnen, Ihre eigene Anwendung mittels Contentful zu bauen. Sie enthält Module, die Ihnen verschiedene Grundkonzepte näher bringen, Content-Modellierung erklärt und sie erläutert, wie Ihre eigene Anwendung Inhalt von Contentful verarbeitet. Der Inhalt wird von den APIs von Contentful unter zuhilfenahme von Contentful SDKs zurverfügung gestellt. \n\nDie Benutzeroberfläche dieses Beispieles wird nur von dem Beispiel selbst benutzt und bediehnt sich _keines_ Templates. Dies ist Absicht, da es sich bei Contentful um ein `Headless CMS` handelt. Was dies bedeuted, wird später nocheinmal verdeutlicht.   \n\nFolgende Themen werden von diesem Kurs abgehandelt:\n\n- **Die Architektur von Contentful**: Komponenten von Contentful.\n- **Content-Modellierung**: Das Content-Modell der Anwendung.\n- **Integration mit Contentful**: Wie wurde diese Anwendung mit Contentful verbunden?",
+          "en-US": "This example app helps you build your own application using Contentful. The app contains modules that introduce you to core concepts, content modelling, and how your app consumes content from Contentful. The content is pulled from Contentful APIs using a Contentful SDK.\n\nThe user interface of this example app is unique to this application and is _not_ a template. This is intentional, and it touches an aspect of a headless CMS that will be covered later.\n\nThis course covers the following topics:\n\n- **Contentful's architecture:**: Basic components of Contentful\n- **Content modelling**: The application's content model\n- **Integrating with Contentful**: Connecting this application to Contentful"
         },
         "duration": {
           "en-US": 5
         },
         "skillLevel": {
-          "en-US": "Beginner"
+          "en-US": "beginner"
         },
         "lessons": {
           "en-US": [
@@ -3091,7 +2852,7 @@
         "id": "3op5VIqGZiwoe06c8IQIMO",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.339Z",
-        "updatedAt": "2017-11-01T11:47:07.812Z",
+        "updatedAt": "2017-11-08T15:20:53.151Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3103,21 +2864,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 4,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 13,
         "firstPublishedAt": "2017-11-01T11:47:07.812Z",
-        "publishedAt": "2017-11-01T11:47:07.812Z",
+        "publishedAt": "2017-11-08T15:20:53.151Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3128,10 +2889,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "Architecture basics"
+          "de-DE": "Architektur",
+          "en-US": "Architecture"
         },
         "slug": {
-          "en-US": "architecture-basics"
+          "en-US": "architecture"
         },
         "modules": {
           "en-US": [
@@ -3146,28 +2908,7 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "5Z9ClwEOZ2qmyay0mE8E80"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "6drco7WlFemgGOUSUyAa4m"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
                 "id": "41fdMtrUzmiqKykUwA8u2A"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "46VBvWze3uSe486IGuQScq"
               }
             }
           ]
@@ -3186,7 +2927,7 @@
         "id": "5mgMoU9aCWE88SIqSIMGYE",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.420Z",
-        "updatedAt": "2017-11-01T11:47:05.032Z",
+        "updatedAt": "2017-11-08T10:46:50.871Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3198,21 +2939,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 5,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 14,
         "firstPublishedAt": "2017-11-01T11:47:05.032Z",
-        "publishedAt": "2017-11-01T11:47:05.032Z",
+        "publishedAt": "2017-11-08T10:46:50.871Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3223,7 +2964,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "SDK Basics"
+          "en-US": "SDK basics"
         },
         "slug": {
           "en-US": "sdk-basics"
@@ -3248,13 +2989,6 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "6yE8yRmpkAcoCgm44kc6Ia"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
                 "id": "15Cx6Bu1Y2qAkyq2yWgkK2"
               }
             },
@@ -3269,7 +3003,7 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "4gQCzMasZW4AMQUmCu0MsW"
+                "id": "3k6uoYm9i8MycCm42IsY62"
               }
             }
           ]
@@ -3493,71 +3227,6 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "3Tz0Ja9A5y2I0IwOk8Uq8M",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:53.720Z",
-        "updatedAt": "2017-11-01T11:47:11.133Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:11.133Z",
-        "publishedAt": "2017-11-01T11:47:11.133Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "layoutHeroImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Awesome"
-        },
-        "headline": {
-          "en-US": "Awesome"
-        },
-        "backgroundImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "1ydfkIt2V2ueuq8gCegqEe"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "3co1RCmOogKKugKqs0Ikqi",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.779Z",
@@ -3628,7 +3297,7 @@
         "id": "3KinTi83FecuMeiUo0qGU4",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:53.784Z",
-        "updatedAt": "2017-11-01T11:47:09.617Z",
+        "updatedAt": "2017-11-08T13:49:37.847Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3640,21 +3309,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 9,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 8,
         "firstPublishedAt": "2017-11-01T11:47:09.617Z",
-        "publishedAt": "2017-11-01T11:47:09.617Z",
+        "publishedAt": "2017-11-08T13:49:37.847Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3665,6 +3334,7 @@
       },
       "fields": {
         "title": {
+          "de-DE": "Zusammenfassung",
           "en-US": "Summary"
         },
         "slug": {
@@ -3751,7 +3421,7 @@
         "id": "6cE7ozrheMuAaioweUQc4k",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.010Z",
-        "updatedAt": "2017-11-01T11:47:14.034Z",
+        "updatedAt": "2017-11-08T14:45:17.159Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3763,21 +3433,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 9,
         "firstPublishedAt": "2017-11-01T11:47:14.034Z",
-        "publishedAt": "2017-11-01T11:47:14.034Z",
+        "publishedAt": "2017-11-08T14:45:17.159Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3788,7 +3458,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Working with fields"
+          "en-US": "Working with fields > Copy"
         },
         "copy": {
           "en-US": "The bulk of a content type definition is made up by a list of fields. We can distinguish two fundamental types of fields: simple, and arrays. A _simple_ field is one that contains a single piece of information, which can be of many types:\n\n- `Symbol`: a short text field for titles and names, with maximum length set at 256 characters.\n- `Text`: a long text field for paragraphs of text. Filterable via full-text search. Maximum length is 50,000 characters.\n- `Integer`: a whole number, which can range from -2^53^ to 2^53^.\n- `Number`: any decimal number, ranging from -2^53^ to 2^53^.\n- `Date`: a date string, formatted using the ISO 8601 standard.\n- `Location`: a JSON object, containing coordinates using `lat` and `lon` properties.\n- `Boolean`: a simple `true`-`false` value.\n- `Object`: a raw JSON string.\n- `Link`: a link to an entry or an asset.\n\n\nAs you can see, most of the common data types are present. In case of something more complex, you could use the `Object` type, which you can then structure however you want on a per-entry basis.\n\nArray fields in Contentful represent a list of values, which can contain either symbols, links to assets, or links to entries. Array fields let you easily model complex 1:N relations, such as a product with many images, but if you get creative you can have paragraphs in an article, highlighted articles in an homepage, and so on. Together with links, arrays form the fundamental building block for content composition with Contentful, and the possibilities are endless."
@@ -3863,7 +3533,7 @@
         "id": "1E8eYg5X4E6SmsyMgc0oEC",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.145Z",
-        "updatedAt": "2017-11-01T11:47:12.690Z",
+        "updatedAt": "2017-11-08T14:46:08.370Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3875,21 +3545,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 31,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 30,
         "firstPublishedAt": "2017-11-01T11:47:12.690Z",
-        "publishedAt": "2017-11-01T11:47:12.690Z",
+        "publishedAt": "2017-11-08T14:46:08.370Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3900,7 +3570,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Field validation screenshot"
+          "en-US": "Field validation for data consistency > Screenshot"
         },
         "image": {
           "en-US": {
@@ -3910,62 +3580,9 @@
               "id": "6n41KgxfwWmmeCiSemIsK2"
             }
           }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
         },
-        "id": "1h514SQSMggg4UeosKE8KC",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:54.271Z",
-        "updatedAt": "2017-11-01T11:47:14.352Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:14.352Z",
-        "publishedAt": "2017-11-01T11:47:14.352Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "copy-web-app"
-        },
-        "copy": {
-          "en-US": "On the right you see the *Contentful Web app*. It is a single page application Contentful provides to help with the most common tasks when managing content:\n\n- provide an interface for editors to write content\n- provide an interface for developers to configure aspects of a space (e.g. data modelling, roles and permissions, webhook notifications)\n\nTechnically speaking the *Contentful Web app* is a client of our Content Management API. That means all functionality provided by the *Contentful Web app* is also available directly through our management API. This is a powerful aspect of an API-first design as it facilitates interoperability with third party systems.\n"
+        "caption": {
+          "en-US": "Field validation in the Contentful web app."
         }
       }
     },
@@ -3981,7 +3598,7 @@
         "id": "3pESAVKLTqkYwYOkkeKEwk",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.308Z",
-        "updatedAt": "2017-11-01T11:47:14.738Z",
+        "updatedAt": "2017-11-08T14:46:46.817Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3993,21 +3610,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 6,
         "firstPublishedAt": "2017-11-01T11:47:14.738Z",
-        "publishedAt": "2017-11-01T11:47:14.738Z",
+        "publishedAt": "2017-11-08T14:46:46.817Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4018,7 +3635,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Understanding context vs content"
+          "en-US": "Understanding context vs content > Copy"
         },
         "copy": {
           "en-US": "## Understanding context vs content\n\nAn important thing we should understand is the difference between a _context_ content type and a _content_ content type. The difference is subtle but important. While they are both used to store data, their purpose is different. In fact, one (_context_) will be used to describe a webpage, a view in an app, or any other concept that is context-dependent. These content types will often contain certain metadata which is necessary for the app to work: for instance, the content type called _Course_ contains the field `slug`. Although this field is not necessarily shown in the webpage you see about the course, it is necessary for the app in order for the routing mechanism to work. This field is very much context-aware: it is useful only when working in a website context, whereas it becomes almost meaningless in an app.\n\nThe opposite of this kind of content types are those whose main purpose is to store content. In this app, these content types are called _modules_. Although they can still store metadata (in fact, some of those also contain a `slug` field), it's usually for convenience rather than for actual need. They are almost never used standalone, as they usually behave more as building blocks that are implemented by context content types.\n\nOf course, not everything's black or white. Although separating context and content is usually a good design pattern which helps scaling, not all situations are complex enough that this makes sense. To sum up, when you think about how to design a content model, ask yourself: _does it make sense to break this into reusable bits?_ Sometimes you can sacrifice some flexibility in the name of ease of use: if the requirements are not too complex, it's a perfectly valid choice."
@@ -4037,7 +3654,7 @@
         "id": "4Ng6zmj9e8Sw0eaYKQM8Es",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.409Z",
-        "updatedAt": "2017-11-01T11:47:15.698Z",
+        "updatedAt": "2017-11-08T14:41:52.490Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4049,21 +3666,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 13,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 12,
         "firstPublishedAt": "2017-11-01T11:47:15.698Z",
-        "publishedAt": "2017-11-01T11:47:15.698Z",
+        "publishedAt": "2017-11-08T14:41:52.490Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4074,7 +3691,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Summary - End"
+          "en-US": "Summary > End"
         },
         "copy": {
           "en-US": "In this section, we got some insights into how sample application was built using our SDKs. We encourage you to download the source code and interact with it to deepen your learning. If you have further questions please do not hesitate submit an issue or pull request, contact us in our Contentful Community or our Community Slack.\n\n👋"
@@ -4093,7 +3710,7 @@
         "id": "316zQQvnpYuAIGouGA2qsY",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.425Z",
-        "updatedAt": "2017-11-01T11:47:15.112Z",
+        "updatedAt": "2017-11-08T14:45:35.927Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4105,21 +3722,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 7,
         "firstPublishedAt": "2017-11-01T11:47:15.112Z",
-        "publishedAt": "2017-11-01T11:47:15.112Z",
+        "publishedAt": "2017-11-08T14:45:35.927Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4130,7 +3747,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Field validation for data consistency"
+          "en-US": "Field validation for data consistency > Copy"
         },
         "copy": {
           "en-US": "Errors can happen, but there are ways to prevent them from sneaking into production. Think about the case of a blog post without a title, or with a duplicated slug: these are the mistakes that can break an app. This is why it's important to master field validation.\n\nEven without directly working with the CMA API, you can define complex rules using the Contentful Web App. After creating the field, go to its validation settings and you'll find all avaiable options for the current field type:"
@@ -4146,66 +3763,10 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "bBxqLifOwgQWSW8CQMkCy",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:54.434Z",
-        "updatedAt": "2017-11-01T11:47:16.178Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:16.178Z",
-        "publishedAt": "2017-11-01T11:47:16.178Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Introduction to authentication"
-        },
-        "copy": {
-          "en-US": "One important aspect of content delivery is authentication. Without the necessary credentials, your content is innaccesible, even for read-only operations via the CDA. These credentials are the identifier for your space in Contentful, and your delivery API key, also referred to as an access token.\n\nYou will need an access token to build applications on top of Contentful, so let's find out where they're hidden. First, login to Contentful at app.contentful.com and navigate to the space your going to build an application around. In the navigation bar at the top of the screen, you'll see a section called \"APIs\", where you can grab keys for Contentful's various APIs.\n"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "58B62ubQbmIOiAkmq44kAo",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.441Z",
-        "updatedAt": "2017-11-01T11:47:16.777Z",
+        "updatedAt": "2017-11-08T14:40:54.807Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4217,21 +3778,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 48,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 47,
         "firstPublishedAt": "2017-11-01T11:47:16.777Z",
-        "publishedAt": "2017-11-01T11:47:16.777Z",
+        "publishedAt": "2017-11-08T14:40:54.807Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4242,10 +3803,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Locale - Fetch - Code - Success"
+          "en-US": "Serve localized content > Code - Success"
         },
         "copy": {
-          "en-US": "You can see in the top right of the he example application, there is a switch to change the language from German to English to see how localization support in action."
+          "en-US": "Switch to the language from English to German by going to the menu item Locale: U.S. English and selecting API Preview (draft content)."
         }
       }
     },
@@ -4261,7 +3822,7 @@
         "id": "2tV9n41tryO2QMwIkQUQeQ",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.635Z",
-        "updatedAt": "2017-11-01T11:47:17.807Z",
+        "updatedAt": "2017-11-08T14:33:47.424Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4273,21 +3834,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 83,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 82,
         "firstPublishedAt": "2017-11-01T11:47:17.807Z",
-        "publishedAt": "2017-11-01T11:47:17.807Z",
+        "publishedAt": "2017-11-08T14:33:47.424Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4298,10 +3859,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Locale - Fetch"
+          "en-US": "Serve localized content > fetching"
         },
         "copy": {
-          "en-US": "The last thing we want to mention here is the ability to change the language of the content on the fly. If you have your content model setup with different locales, retrieving resources in a different language is as easy as doing the following:"
+          "en-US": "If you have configured different locales within your content model, you can fetch localized content:"
         }
       }
     },
@@ -4317,7 +3878,7 @@
         "id": "5u5i90HuEgcOYKacSoMEG6",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.743Z",
-        "updatedAt": "2017-11-01T11:47:17.131Z",
+        "updatedAt": "2017-11-08T14:40:34.709Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4329,21 +3890,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 5,
+        "version": 25,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 24,
         "firstPublishedAt": "2017-11-01T11:47:17.130Z",
-        "publishedAt": "2017-11-01T11:47:17.130Z",
+        "publishedAt": "2017-11-08T14:40:34.709Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4354,16 +3915,13 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Locale - Fetch - Code"
-        },
-        "slug": {
-          "en-US": "example-application-locale-fetch-code"
+          "en-US": "Serve localized content > Fetch - Code "
         },
         "curl": {
-          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', locale: ‘de-DE’)\nputs(entry.fields)"
+          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', locale: 'de-DE')\nputs(entry.fields)"
         },
         "dotNet": {
-          "en-US": "var queryBuilder = QueryBuilder<Entry<dynamic>>.New.LocaleIs(\"de-DE\");\nvar entries = await client.GetEntriesAsync(queryBuilder);\nConsole.WriteLine(entries.ToString());"
+          "en-US": "var queryBuilder = QueryBuilder<dynamic>.New.LocaleIs(\"de-DE\");\nvar entries = await client.GetEntriesAsync(queryBuilder);\nConsole.WriteLine(entries.ToString());"
         },
         "javascript": {
           "en-US": "client.getEntries({'locale': 'de-DE'}).then((response) => {\n  console.log(response)\n})"
@@ -4378,10 +3936,10 @@
           "en-US": "$query = (new Contentful\\Delivery\\Query())\n    ->setLocale('de-DE');\n\n$entries = $client->getEntries($query);\n\nvar_dump($entries);"
         },
         "python": {
-          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', {‘locale’: ‘de-DE'})\nprint(entry.fields())"
+          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', {'locale': 'de-DE'})\nprint(entry.fields())"
         },
         "ruby": {
-          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', locale: ‘de-DE’)\nputs(entry.fields)"
+          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', locale: 'de-DE')\nputs(entry.fields)"
         },
         "swift": {
           "en-US": "let query = Query(where: \"locale\", .equals(\"de-DE\"))\n\nclient.fetchEntries(with: query) { (result: Result<ArrayResponse<Entry>>) in\n  switch result {\n  case .success(let arrayResponse):\n    let entries = arrayResponse.items\n    print(entries)\n  case .error(let error):\n    print(error)\n  }\n}"
@@ -4400,7 +3958,7 @@
         "id": "4ZQtjYftNKaoKWuksM0sS0",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.756Z",
-        "updatedAt": "2017-11-01T11:47:18.296Z",
+        "updatedAt": "2017-11-08T14:45:15.279Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4412,21 +3970,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 16,
+        "version": 814,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 811,
         "firstPublishedAt": "2017-11-01T11:47:18.296Z",
-        "publishedAt": "2017-11-01T11:47:18.296Z",
+        "publishedAt": "2017-11-08T14:45:12.608Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4437,10 +3995,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Preview - Credentials full Code - Success"
+          "en-US": "Fetch draft content > footnote"
         },
         "copy": {
-          "en-US": "Using a client with the above configuration, the SDK will fetch content from the preview API and return content which is not yet published. To see this in action, toggle between the CDA and CPA using the switch on the screen. Additionally, go back to the WebApp and change one of the pieces of content you're viewing, but don't publish! Now, when toggling between CDA and CPA, you should see your drafted changes!"
+          "en-US": "The example app is configured to connect to both the Delivery API and the Preview API. \n\nFor fun, change the formatting of *pizza* by going to the menu item `API: Delivery (published content)` and selecting `API Preview (draft content)`."
         }
       }
     },
@@ -4456,7 +4014,7 @@
         "id": "3Cdru4aYkoAeeAcKGOg6OO",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.763Z",
-        "updatedAt": "2017-11-01T11:47:19.239Z",
+        "updatedAt": "2017-11-08T14:56:26.016Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4468,21 +4026,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:19.239Z",
-        "publishedAt": "2017-11-01T11:47:19.239Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4512,7 +4061,7 @@
         "id": "4Zg99dYM5awic2iwIKo6EW",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.788Z",
-        "updatedAt": "2017-11-01T11:47:19.608Z",
+        "updatedAt": "2017-11-08T14:44:35.208Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4524,21 +4073,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 5,
+        "version": 160,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "08JDkM79BdUNkxcmfnt78J"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 159,
         "firstPublishedAt": "2017-11-01T11:47:19.608Z",
-        "publishedAt": "2017-11-01T11:47:19.608Z",
+        "publishedAt": "2017-11-08T14:44:35.208Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4549,37 +4098,34 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Preview - Credentials full Code"
-        },
-        "slug": {
-          "en-US": "example-application-preview-credentials-full-code"
+          "en-US": "Fetch draft content > code"
         },
         "curl": {
-          "en-US": "export CPA_TOKEN='d88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3';\nexport SPACE_ID='82t39nctsu20';"
+          "en-US": "export CPA_TOKEN='<cpa_token>';\nexport SPACE_ID='<space_id>';"
         },
         "dotNet": {
-          "en-US": "var httpClient = new HttpClient();\nvar client = new ContentfulClient(httpClient, \"d88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3\", \"82t39nctsu20\", usePreviewApi: true);"
+          "en-US": "var httpClient = new HttpClient();\nvar client = new ContentfulClient(httpClient, \"\", \"<cpa_token>\", \"<space_id>\", usePreviewApi: true);"
         },
         "javascript": {
-          "en-US": "const contentful = require('contentful')\nconst client = contentful.createClient({\n  space: '82t39nctsu20',\n  accessToken: 'd88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3',\n  host: 'preview.contentful.com'\n})"
+          "en-US": "const contentful = require('contentful')\nconst client = contentful.createClient({\n  space: '<space_id>',\n  accessToken: '<cpa_token>',\n  host: 'preview.contentful.com'\n})"
         },
         "java": {
-          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n    .setToken(\"d88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3\")\n        .preview()\n        .setSpace(\"82t39nctsu20\")\n        .build();"
+          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"<cpa_token>\")\n        .preview()\n        .setSpace(\"<space_id>\")\n        .build();"
         },
         "javaAndroid": {
-          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"d88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3\")\n        .preview()\n        .setSpace(\"82t39nctsu20\")\n        .build();"
+          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"<cpa_token>\")\n        .preview()\n        .setSpace(\"<space_id>\")\n        .build();"
         },
         "php": {
-          "en-US": "$client = new \\Contentful\\Delivery\\Client(\n    'd88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3',\n    '82t39nctsu20',\n    true\n);"
+          "en-US": "$client = new \\Contentful\\Delivery\\Client(\n    '<cpa_token>',\n    '<space_id>',\n    true\n);"
         },
         "python": {
-          "en-US": "import contentful\n\nclient = contentful.Client('82t39nctsu20', 'd88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3', api_url='preview.contentful.com')"
+          "en-US": "import contentful\n\nclient = contentful.Client('<space_id>', '<cpa_token>', api_url='preview.contentful.com')"
         },
         "ruby": {
-          "en-US": "require ‘contentful’\n\nclient = Contentful::Client.new(\n  space: '82t39nctsu20',\n  access_token: 'd88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3',\n  dynamic_entries: :auto,\n  api_url: 'preview.contentful.com',\n  raise_errors: true\n)"
+          "en-US": "require ‘contentful’\n\nclient = Contentful::Client.new(\n  space: '<space_id>',\n  access_token: '<cpa_token>',\n  dynamic_entries: :auto,\n  api_url: 'preview.contentful.com',\n  raise_errors: true\n)"
         },
         "swift": {
-          "en-US": "var configuration = ClientConfiguration()\nconfiguration.previewMode = true\n\n// Retain the client as a property on a type you define so that \n// the client's asynchronous network callbacks are executed.\nlet client = Client(spaceId: \"82t39nctsu20\", accessToken: \"d88b119e4459b1343ed2753004fb229d77db76b81adec3b70b933285660e8db3\")"
+          "en-US": "var configuration = ClientConfiguration()\nconfiguration.previewMode = true\n\n// Retain the client as a property on a type you define so that \n// the client's asynchronous network callbacks are executed.\nlet client = Client(spaceId: \"<space_id>\", accessToken: \"<cpa_token>\")"
         }
       }
     },
@@ -4595,7 +4141,7 @@
         "id": "6autSAiy08Wa2mcs6U0ScG",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.900Z",
-        "updatedAt": "2017-11-01T11:47:18.837Z",
+        "updatedAt": "2017-11-08T14:56:40.542Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4607,21 +4153,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:18.837Z",
-        "publishedAt": "2017-11-01T11:47:18.837Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4651,7 +4188,7 @@
         "id": "1wMm7tnKi0kIYsI24eYiKS",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:54.933Z",
-        "updatedAt": "2017-11-01T11:47:19.951Z",
+        "updatedAt": "2017-11-08T14:31:04.998Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4663,21 +4200,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 309,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 308,
         "firstPublishedAt": "2017-11-01T11:47:19.951Z",
-        "publishedAt": "2017-11-01T11:47:19.951Z",
+        "publishedAt": "2017-11-08T14:31:04.998Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4688,10 +4225,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - Preview "
+          "en-US": "Fetch draft content > preview "
         },
         "copy": {
-          "en-US": "In addition to serving published content, Contentful can also serve draft content: we call this preview, and a resource is a preview resource as long as it is not published. To access those resources, you need to interface with the preview API.\n\nThe preview API accepts the same parameters and returns the same payload structure as the delivery API. This makes is very easy to switch any client application between these two APIs \n\nThe SDKs are also making it easier for you to use preview. Remember the code for initializing the SDK from above? You can just adapt it to be using preview, by adding two parameters to the configuration:"
+          "en-US": "Before you publish your content, you can preview it using the Content Preview API. The Preview API and Delivery API both accept the same parameters and return the same payload structures.\n\nTo fetch preview content, change the configuration of the client to use the Content Preview API token.\n\n"
         }
       }
     },
@@ -4707,7 +4244,7 @@
         "id": "65dJ3ZbKdaWG4066iQ8IOK",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.085Z",
-        "updatedAt": "2017-11-01T11:47:20.287Z",
+        "updatedAt": "2017-11-08T14:56:25.980Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4719,21 +4256,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:20.287Z",
-        "publishedAt": "2017-11-01T11:47:20.287Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4760,66 +4288,10 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "5mIOYe76Dukk46MKyGS0cU",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:55.280Z",
-        "updatedAt": "2017-11-01T11:47:20.965Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:20.965Z",
-        "publishedAt": "2017-11-01T11:47:20.965Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Example Application - SDK Getting Data - Introduction Code - Success"
-        },
-        "copy": {
-          "en-US": "You can see that there is an entry ID specified. This ID will be used to fetch the entry and return it. In the code above, we assign the fetched entry to a variable called `entry` in the callback.\n"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "3QJuO2TNxm0OqSgIMaoCwi",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.368Z",
-        "updatedAt": "2017-11-01T11:47:21.491Z",
+        "updatedAt": "2017-11-08T14:30:37.107Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4831,21 +4303,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 7,
+        "version": 171,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 170,
         "firstPublishedAt": "2017-11-01T11:47:21.490Z",
-        "publishedAt": "2017-11-01T11:47:21.490Z",
+        "publishedAt": "2017-11-08T14:30:37.107Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4856,93 +4328,34 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - SDK Getting Data - Introduction Code"
-        },
-        "slug": {
-          "en-US": "example-application-sdk-getting-data-introduction-code"
+          "en-US": "Fetch all entries > code"
         },
         "curl": {
-          "en-US": "curl -H 'Authorization: Bearer '$CDA_TOKEN 'https://cdn.contentful.com/spaces/'$SPACE_ID'/entries2uNOpLMJioKeoMq8W44uYc'"
+          "en-US": "curl -H 'Authorization: Bearer '$CDA_TOKEN 'https://cdn.contentful.com/spaces/'$SPACE_ID'/entries/'"
         },
         "dotNet": {
-          "en-US": "var entry = await client.GetEntryAsync<Entry<dynamic>>(\"2uNOpLMJioKeoMq8W44uYc\");\n\nConsole.WriteLine(entry.ToString());"
+          "en-US": "var entry = await client.GetEntries<dynamic>();\n\nConsole.WriteLine(entry.ToString());"
         },
         "javascript": {
-          "en-US": "client.getEntry('2uNOpLMJioKeoMq8W44uYc')\n.then((entry) => console.log(entry))"
+          "en-US": "client.getEntries()\n.then((response) => console.log(response))"
         },
         "java": {
-          "en-US": "final CDAEntry one =\n    client\n        .fetch(CDAEntry.class)\n        .one(\"2uNOpLMJioKeoMq8W44uYc\");\n\nSystem.out.println(one.toString());\n"
+          "en-US": "final CDAArray all =\n    client\n        .fetch(CDAEntry.class)\n        .all();\n\nSystem.out.println(all);\n"
         },
         "javaAndroid": {
-          "en-US": "\nclient\n    .observe(CDAEntry.class)\n    .one(\"2uNOpLMJioKeoMq8W44uYc\")\n    .observeOn(AndroidSchedulers.mainThread())\n    .subscribeOn(io.reactivex.schedulers.Schedulers.io())\n    .subscribe(\n        new DisposableSubscriber<CDAEntry>() {\n          CDAEntry result;\n\n          @Override public void onComplete() {\n            new AlertDialog.Builder(context)\n                .setTitle(\"Contentful\")\n                .setMessage(result.toString())\n                .show();\n          }\n\n          @Override public void onError(Throwable e) {\n            // Handle error case.\n            new AlertDialog.Builder(context)\n                .setTitle(\"Contentful\")\n                .setMessage(\"An error occurred: \" + e.toString())\n                .show();\n          }\n\n          @Override public void onNext(CDAEntry entry) {\n            // Array received, maybe more to come.\n            result = entry;\n          }\n        }"
+          "en-US": "\nclient\n    .observe(CDAEntry.class)\n    .all()\n    .observeOn(AndroidSchedulers.mainThread())\n    .subscribeOn(io.reactivex.schedulers.Schedulers.io())\n    .subscribe(\n        new DisposableSubscriber<CDAArray>() {\n          CDAArray result;\n\n          @Override public void onComplete() {\n            new AlertDialog.Builder(context)\n                .setTitle(\"Contentful\")\n                .setMessage(result.toString())\n                .show();\n          }\n\n          @Override public void onError(Throwable e) {\n            // Handle error case.\n            new AlertDialog.Builder(context)\n                .setTitle(\"Contentful\")\n                .setMessage(\"An error occurred: \" + e.toString())\n                .show();\n          }\n\n          @Override public void onNext(CDAArray array) {\n            // Array received, maybe more to come.\n            result = entry;\n          }\n        }"
         },
         "php": {
-          "en-US": "$entry = $client->getEntry('2uNOpLMJioKeoMq8W44uYc');\n\nvar_dump($entry);"
+          "en-US": "$entries = $client->getEntries();\n\nvar_dump($entries);"
         },
         "python": {
-          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc')\nprint(repr(entry))"
+          "en-US": "entries = client.entries()\nprint(repr(entries))"
         },
         "ruby": {
-          "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc')\nputs(entry)"
+          "en-US": "entries = client.entries()\nputs(entries)"
         },
         "swift": {
-          "en-US": "client.fetchEntry(\"2uNOpLMJioKeoMq8W44uYc\") { (result: Result<Entry>) in\n    switch result {\n        case .success(entry):\n            print(entry)\n        case .error(let error):\n            print(\"Error \\(error)!\")\n    }\n}"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "4gQCzMasZW4AMQUmCu0MsW",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:55.387Z",
-        "updatedAt": "2017-11-01T11:47:22.453Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:22.453Z",
-        "publishedAt": "2017-11-01T11:47:22.453Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Example Application - SDK Initialization - Code - Success"
-        },
-        "copy": {
-          "en-US": "This code first includes the library and then configures a client by providing the space ID and Content Delivery API key to read from this space."
+          "en-US": "client.fetchEntries() { (result: Result<ArrayResponse<Entry>>) in\n    switch result {\n        case .success(arrayResponse):\n            let entries = arrayResponse.items\n            print(entries)\n        case .error(let error):\n            print(\"Error \\(error)!\")\n    }\n}"
         }
       }
     },
@@ -4958,7 +4371,7 @@
         "id": "15Cx6Bu1Y2qAkyq2yWgkK2",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.564Z",
-        "updatedAt": "2017-11-01T11:47:22.068Z",
+        "updatedAt": "2017-11-08T14:28:48.028Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4970,21 +4383,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 9,
+        "version": 291,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 290,
         "firstPublishedAt": "2017-11-01T11:47:22.068Z",
-        "publishedAt": "2017-11-01T11:47:22.068Z",
+        "publishedAt": "2017-11-08T14:28:48.028Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4995,10 +4408,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - SDK Initialization"
+          "en-US": "SDK basics > SDK initialization"
         },
         "copy": {
-          "en-US": "After installing, you need to include the SDK into your current project and configure it. As a simple example, please consider the following code:"
+          "en-US": "Include the SDK in your project and initialize a client: \n1. Add the import statement.\n2. Configure a client with your space ID and Content Delivery API token."
         }
       }
     },
@@ -5014,7 +4427,7 @@
         "id": "5WZ7JD9Hb2Myi6uYYSscIw",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.565Z",
-        "updatedAt": "2017-11-01T11:47:23.379Z",
+        "updatedAt": "2017-11-08T14:30:21.474Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5026,21 +4439,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 5,
+        "version": 59,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 58,
         "firstPublishedAt": "2017-11-01T11:47:23.379Z",
-        "publishedAt": "2017-11-01T11:47:23.379Z",
+        "publishedAt": "2017-11-08T14:30:21.474Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5051,10 +4464,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - SDK Getting Data - Introduction"
+          "en-US": "Fetch all entries > introduction"
         },
         "copy": {
-          "en-US": "Now that you have setup a Contentful client, you can use it to retrieve data from Contentful."
+          "en-US": "Now that you have configured a Contentful client, you can use it to fetch all the entries in your Contentful space:"
         }
       }
     },
@@ -5070,7 +4483,7 @@
         "id": "1u8xSIQR4UaoQOc4m6KiiU",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.599Z",
-        "updatedAt": "2017-11-01T11:47:23.022Z",
+        "updatedAt": "2017-11-08T14:28:45.510Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5082,21 +4495,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 6,
+        "version": 179,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 178,
         "firstPublishedAt": "2017-11-01T11:47:23.022Z",
-        "publishedAt": "2017-11-01T11:47:23.022Z",
+        "publishedAt": "2017-11-08T14:28:45.510Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5107,37 +4520,34 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - SDK Initialization - Code"
-        },
-        "slug": {
-          "en-US": "example-application-sdk-initialization-code"
+          "en-US": "SDK basics > SDK initialization - code"
         },
         "curl": {
-          "en-US": "export CDA_TOKEN='2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6';\nexport SPACE_ID='82t39nctsu20';"
+          "en-US": "export CDA_TOKEN='<access_token>';\nexport SPACE_ID='<space_id>';"
         },
         "dotNet": {
-          "en-US": "var httpClient = new HttpClient();\nvar client = new ContentfulClient(httpClient, \"2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6\", \"82t39nctsu20\");"
+          "en-US": "var httpClient = new HttpClient();\nvar client = new ContentfulClient(httpClient, \"<access_token>\", \"\", \"<space_id>\");"
         },
         "javascript": {
-          "en-US": "const contentful = require('contentful')\nconst client = contentful.createClient({\n  space: '82t39nctsu20',\n  accessToken: '2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6'\n})\n"
+          "en-US": "const contentful = require('contentful')\nconst client = contentful.createClient({\n  space: '<space_id>',\n  accessToken: '<access_token>'\n})\n"
         },
         "java": {
-          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6\")\n        .setSpace(\"82t39nctsu20\")\n        .build();\n"
+          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"<access_token>\")\n        .setSpace(\"<space_id>\")\n        .build();\n"
         },
         "javaAndroid": {
-          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6\")\n        .setSpace(\"82t39nctsu20\")\n        .build();\n"
+          "en-US": "final CDAClient client =\n    CDAClient\n        .builder()\n        .setToken(\"<access_token>\")\n        .setSpace(\"<space_id>\")\n        .build();\n"
         },
         "php": {
-          "en-US": "$client = new \\Contentful\\Delivery\\Client(\n    '2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6',\n    '82t39nctsu20'\n);"
+          "en-US": "$client = new \\Contentful\\Delivery\\Client(\n    '<access_token>',\n    '<space_id>'\n);"
         },
         "python": {
-          "en-US": "import contentful\n\nclient = contentful.Client('82t39nctsu20', '2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6')\n"
+          "en-US": "import contentful\n\nclient = contentful.Client('<space_id>', '<access_token>')\n"
         },
         "ruby": {
-          "en-US": "require ‘contentful’\n\nclient = Contentful::Client.new(\n  space: '82t39nctsu20',\n  access_token: '2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6',\n  dynamic_entries: :auto,\n  raise_errors: true\n)"
+          "en-US": "require ‘contentful’\n\nclient = Contentful::Client.new(\n  space: '<space_id>',\n  access_token: '<access_token>',\n  dynamic_entries: :auto,\n  raise_errors: true\n)"
         },
         "swift": {
-          "en-US": "import Contentful\n\nlet client = Client(spaceId: \"82t39nctsu20\", \n                    accessToken: \"2a8dad8e545fc9f5c6aa9250f8a819f87049545260b4041688e708744d1b01c6\")"
+          "en-US": "import Contentful\n\nlet client = Client(spaceId: \"<space_id>\", \n                    accessToken: \"<access_token>\")"
         }
       }
     },
@@ -5153,7 +4563,7 @@
         "id": "1ph3B44420k2wgG8y2aYcM",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.790Z",
-        "updatedAt": "2017-11-01T11:47:24.944Z",
+        "updatedAt": "2017-11-08T14:28:53.582Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5165,21 +4575,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 4,
+        "version": 32,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 31,
         "firstPublishedAt": "2017-11-01T11:47:24.944Z",
-        "publishedAt": "2017-11-01T11:47:24.944Z",
+        "publishedAt": "2017-11-08T14:28:53.582Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5190,13 +4600,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - SDK Installation - Code"
-        },
-        "slug": {
-          "en-US": "example-application-sdk-installation-code"
+          "en-US": "SDK basics > installation - code"
         },
         "curl": {
-          "en-US": "# not needed"
+          "en-US": "# Not applicable"
         },
         "dotNet": {
           "en-US": "dotnet add package contentful.csharp"
@@ -5236,7 +4643,7 @@
         "id": "3Y1JQg9bjqIG6OgA2KAM4A",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:55.867Z",
-        "updatedAt": "2017-11-01T11:47:24.302Z",
+        "updatedAt": "2017-11-08T14:28:56.711Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5248,21 +4655,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 6,
+        "version": 94,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 93,
         "firstPublishedAt": "2017-11-01T11:47:24.302Z",
-        "publishedAt": "2017-11-01T11:47:24.302Z",
+        "publishedAt": "2017-11-08T14:28:56.711Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5273,66 +4680,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Example Application - SDK Basics"
+          "en-US": "SDK basics > installation"
         },
         "copy": {
-          "en-US": "If you have ever communicated with a RESTful HTTP server without using an SDK, you know that sometimes keeping track of endpoints can be difficult. Forgot the HTTP-Header? How was the order of URL path elements again? Did the space parameter come first or second?\n\nTo make communication with Contentful as easy as possible, we created our open source SDKs. You install them, initialize them, and immediately have the power of the Contentful API at your fingertips, without needing to remember the intricate details.\n\nAssuming a solid understanding of your language and frameworks, you start using the Contentful SDK by importing it like so:"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "6yE8yRmpkAcoCgm44kc6Ia",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:55.994Z",
-        "updatedAt": "2017-11-01T11:47:23.786Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:23.786Z",
-        "publishedAt": "2017-11-01T11:47:23.786Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Example Application - SDK Installation - Code - Success"
-        },
-        "copy": {
-          "en-US": "This command will install the Contentful SDK."
+          "en-US": "To make communication with Contentful as easy as possible, we created open-source SDKs.\n\nInstall an SDK:"
         }
       }
     },
@@ -5348,7 +4699,7 @@
         "id": "5HBr0bAy2I0Sous2KOs4Ke",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:56.032Z",
-        "updatedAt": "2017-11-01T11:47:25.390Z",
+        "updatedAt": "2017-11-08T14:56:25.970Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5360,21 +4711,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:25.390Z",
-        "publishedAt": "2017-11-01T11:47:25.390Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5404,7 +4746,7 @@
         "id": "e4ppXYQiKOuMO2Y4UO868",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:56.042Z",
-        "updatedAt": "2017-11-01T11:47:25.980Z",
+        "updatedAt": "2017-11-08T14:56:25.945Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5416,21 +4758,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:25.980Z",
-        "publishedAt": "2017-11-01T11:47:25.980Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5460,7 +4793,7 @@
         "id": "2tVabFce4AaEeq6iesw8WY",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:56.166Z",
-        "updatedAt": "2017-11-01T11:47:26.588Z",
+        "updatedAt": "2017-11-08T14:56:25.981Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5472,21 +4805,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:26.588Z",
-        "publishedAt": "2017-11-01T11:47:26.588Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5516,7 +4840,7 @@
         "id": "41fdMtrUzmiqKykUwA8u2A",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:56.182Z",
-        "updatedAt": "2017-11-01T11:47:27.589Z",
+        "updatedAt": "2017-11-08T15:20:10.949Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5528,21 +4852,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 7,
+        "version": 174,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 173,
         "firstPublishedAt": "2017-11-01T11:47:27.589Z",
-        "publishedAt": "2017-11-01T11:47:27.589Z",
+        "publishedAt": "2017-11-08T15:20:10.949Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5553,7 +4877,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "image-json-delivery"
+          "en-US": "Architecture > headless image"
         },
         "image": {
           "en-US": {
@@ -5563,199 +4887,10 @@
               "id": "1PzXR2apawY8iYM4o0AUoi"
             }
           }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
         },
-        "id": "52EmIIYXi8yyyOMmS04mWc",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:56.222Z",
-        "updatedAt": "2017-11-01T11:47:27.016Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:27.016Z",
-        "publishedAt": "2017-11-01T11:47:27.016Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "layoutCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Home Page Welcome"
-        },
-        "headline": {
-          "en-US": "A referenceable example for developers using Contentful"
-        },
-        "copy": {
-          "en-US": "This is The Example App, an application built to serve you as a reference while building your own applications using Contentful. This app is an online learning platform which teaches you how Contentful was used to build this app (so meta)!\n\nIf you prefer to start by getting your hands dirty with code, check out this app on [Github](https://images.contentful.com/82t39nctsu20/1JOkYZnY8YG0w88ImweME2/c8aef71dfe1ea633e16e17d99379416c/Github-repo_2x__1_.png)."
-        },
-        "ctaTitle": {
-          "de": "CTA titel Deutsch",
-          "en-US": "What is this?"
-        },
-        "ctaLink": {
-          "en-US": "https://contentful-example-app.herokuapp.com/about"
-        },
-        "visualStyle": {
-          "en-US": "Emphasized"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "5Z9ClwEOZ2qmyay0mE8E80",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:56.547Z",
-        "updatedAt": "2017-11-01T11:47:29.136Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:29.136Z",
-        "publishedAt": "2017-11-01T11:47:29.136Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "image-api-first"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "1YK5kwroV6UEGS64mQs0Eo"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "7hB4tOi7MkOCs86YcWUM2",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:56.550Z",
-        "updatedAt": "2017-11-01T11:47:28.150Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:28.150Z",
-        "publishedAt": "2017-11-01T11:47:28.150Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "content-model"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "6YqgefHM5yuA0yAQaU0OOE"
-            }
-          }
+        "caption": {
+          "de-DE": "Contentfuls APIs senden Daten im JSON-Format. Hierdurch kann Inhalt platformunabhängig benutzt werden.",
+          "en-US": "Contentful's APIs send data in JSON format which enables cross channel distribution of content."
         }
       }
     },
@@ -5771,7 +4906,7 @@
         "id": "7iCSSldqDuUkG4GWa46uUq",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:56.735Z",
-        "updatedAt": "2017-11-01T11:47:28.766Z",
+        "updatedAt": "2017-11-08T15:20:17.389Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5783,21 +4918,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 6,
+        "version": 1087,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 1086,
         "firstPublishedAt": "2017-11-01T11:47:28.766Z",
-        "publishedAt": "2017-11-01T11:47:28.766Z",
+        "publishedAt": "2017-11-08T15:20:17.389Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5808,10 +4943,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "copy-api-first"
+          "en-US": "Architecture > copy"
         },
         "copy": {
-          "en-US": "## API-first\n\nUnderstanding Contentful's basic architecture is key. \n\nContentful's infrastructure is running on Amazon Web Services (AWS) and follows an API-first approach. It means that all functionality is provided through an API.\n\n> __» Contentful is 100% cloud-based and all functionality is provided through APIs «__\n\nA few examples are:\n- you can modify data schemas or configure a webhook through the Content Management API.\n- you can deliver content everywhere through the Content Delivery API.\n- you can access unpublished (draft) content through the Content Preview API.\n- you can resize, crop or re-compress images through the Images API.\n\n"
+          "de-DE": "## API-first\n\nContentful folgt der API-First-Denkweise, dies bedeutet, dass alle Funktionalitäten durch die API zur Verfügung gestellt werden.\n\nD.h. Sie können:\n- Datenschemata verändern, oder Webhooks durch die Content Managewment API konfigurieren.\n- Platformunabhängigen Inhalt mittels unserer Contend Delivery API verteilen.\n- Entwürfe von unveröffentlichten Inhalt durch unsere Content Preview API begutachten.\n- Bilder skalieren, schneiden oder erneut komprimieren unter zuhilfenahme unserer Images API.\n\n![api first](//images.contentful.com/ft4tkuv7nwl0/1YK5kwroV6UEGS64mQs0Eo/c5eb53f39703f73d215e7ed8ad2f88e6/api-first.svg)\n\nContentful ist ein sogennantes `Headless CMS`, das bedeuted, das kein `Templating` und kein Präsentationslayer fest mit Ihrem Inhalt verbunden ist. Stattdessen hat ein Entwickler die komplette Freiheit eine Anwendung zu bauen die Contentful benutzt. Auf diese Art und Weise, können Sie Ihre Anwendung komplett von Contentful entkoppeln können.\n\nDies sind die minimalen Anforderungen von Contentful:\n\n- Unterstützung des Protokolls HTTP\n- Verarbeitung von JSON-Daten\n\nMehr ist nicht nötig, Sie haben die Freiheit sich Ihre Technologie selbst auszusuchen.",
+          "en-US": "## API-first\n\nContentful follows an API-first approach, which means all functionality is provided through an API.\n\nThis means you can:\n- modify data schemas or configure a webhook through the Content Management API.\n- deliver cross-channel content through the Content Delivery API.\n- preview unpubublished content through the Content Preview API.\n- resize, crop, or re-compress images through the Images API.\n\n![api first](//images.contentful.com/ft4tkuv7nwl0/1YK5kwroV6UEGS64mQs0Eo/c5eb53f39703f73d215e7ed8ad2f88e6/api-first.svg)\n\nContentful is a headless CMS; there is no templating or presentation layer tied to the content. Instead, a developer has complete freedom when it comes to building an application that consumes and presents content from Contentful. This allows you to decouple your applications from Contentful's services.\n\nContentful has minimal requirements:\n- support for HTTP\n- parsing of JSON\n\nBeyond that, you are free to chose any technology you want."
         }
       }
     },
@@ -5827,7 +4963,7 @@
         "id": "6ucY5w3oswEU6EYSCEi0C8",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:56.812Z",
-        "updatedAt": "2017-11-01T11:47:29.746Z",
+        "updatedAt": "2017-11-06T14:00:39.154Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5839,21 +4975,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 6,
         "firstPublishedAt": "2017-11-01T11:47:29.746Z",
-        "publishedAt": "2017-11-01T11:47:29.746Z",
+        "publishedAt": "2017-11-06T14:00:39.153Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5864,66 +5000,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Get started"
+          "en-US": "Getting started"
         },
         "slug": {
-          "en-US": "get-started"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "6drco7WlFemgGOUSUyAa4m",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:56.857Z",
-        "updatedAt": "2017-11-01T11:47:30.101Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:30.101Z",
-        "publishedAt": "2017-11-01T11:47:30.101Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "copy-headless"
-        },
-        "copy": {
-          "en-US": "## Headless\nContentful is a headless CMS. This means that there is no templating or presentation layer tied to the content. Instead it gives developers complete freedom when it comes to building applications presenting content from Contentful.\n\nThe benefit: you can fully decouple your applications from Contentful's services. The only dependencies coming with Contentful are:\n- support for HTTP\n- support for JSON (parsing)\n\nYou are free to choose whatever technology and presentation format that is most suited to _your_ needs."
+          "en-US": "getting-started"
         }
       }
     },
@@ -5939,7 +5019,7 @@
         "id": "4qT1W3HXewc0SscAs80UuA",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:57.033Z",
-        "updatedAt": "2017-11-01T11:47:30.683Z",
+        "updatedAt": "2017-11-08T15:42:10.841Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5951,21 +5031,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 6,
+        "version": 1773,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 1772,
         "firstPublishedAt": "2017-11-01T11:47:30.683Z",
-        "publishedAt": "2017-11-01T11:47:30.683Z",
+        "publishedAt": "2017-11-08T15:42:10.841Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -5976,128 +5056,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "copy-lesson-modules"
+          "en-US": "Content model > copy"
         },
         "copy": {
-          "en-US": "Important terms when working with data in Contentful are\n\n- content modelling\n- content types\n- fields\n\n__Content modelling__ is the practice of structuring your content by grouping information into logical elements, called __content types__. \n\nYou then populate the content types with __fields__. Each field represents one piece of data of a specific type.\n\nContent types can also reference each other enabling you to model complex information relationships. \n\n## The content model of this lesson\n\nThe characters you are seeing while reading this lesson are data stored in Contentful. Lets have a look how that was modelled:"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "46VBvWze3uSe486IGuQScq",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:57.296Z",
-        "updatedAt": "2017-11-01T11:47:31.805Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:31.805Z",
-        "publishedAt": "2017-11-01T11:47:31.805Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "copy-architecture-outro"
-        },
-        "copy": {
-          "en-US": "> __» Contentful adds no dependencies to your applications as long as it supports HTTP and can parse JSON «__"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "5HKk51FTVK0kKCK4iACoOA",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:57.420Z",
-        "updatedAt": "2017-11-01T11:47:31.167Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:31.167Z",
-        "publishedAt": "2017-11-01T11:47:31.167Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "image-lesson-modules"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "1Qx0CdNcf6YAoa0IIUUUgM"
-            }
-          }
+          "de-DE": "Unter _Content-Modellierung_ versteht man die Art und Weise Inhalt zu strukturieren. Hier in Contentful, passiert dies durch _Content Types_. Ein Content Type kann man sich als Schema gleichen Inhalts vorstellen: Für jeden Content Type spezifiziert man dessen Eigenschaften, hier _Fields_ genannt. Diese _Fields_ repäsentieren ein Aspekt eines Content Types. \n\nSie können Content Types auch sich gegenseitig referenzieren lassen.\n\n## Der Content Type dieser Lektion\n\nDen Text den Sie hier lesen, wurde in Contentful gespeichert. Sein Content Type sieht wie folgt aus:\n\n- Lesson: wird benutzt um Inhalt zu grupieren und neu anzuordnen.\n- Lesson > Copy: Ein Block von Markdown-Text \n- Lesson > Code: Ein Block von Quellcode\n- Lesson > Image: Ein Bild\n\n![content-model-lesson](//images.contentful.com/ft4tkuv7nwl0/1nXjR47jxOagUcc8iU6wUQ/2363d14a14ad8becb0869ebd5d2853c7/content-model-lesson.svg)\n\nUm eine _Lektion_ zu modellieren, wählten wir auch hier wieder die modulare Sichtweise: Wir gaben dem Content Type _Lesson_ verschiedene Referenzen auf andere Content Types.\n\nDiese Herangehensweise ist für Autoren vorteilhaft, da sie Teile des Inhaltes so leicht neuanordnen können. Gleichzeitig können Entwickler die Kontrolle behalten, wie einzelne Teile an Inhalt dargestellt werden.\n\n\n## Das Content-Modell dieser Anwendung\n\nDas folgende Diagramm zeigt das gesamte Content-Modell dieser Anwendung:\n\nIn detail:\n\n- Der _Layout_ Content Type referenziert den _Highlighted course_ Content Type.\n- Der _Highlighted course_ Content Type referenziert den _Course_ content type.\n- Der _Course_ Content Type referenziert den _Lesson_ Content Type.\n\nMit diesem Wissen, können Sie nun die Hierarchie der Besipielanwendung erkunden. Dannach, erkunden Sie die Hierarchie der Content Types in der Contentful Webanwendung. Sobald Sie dies getan haben, wird ihr Verständniss für die Interaktion zwischen Content-Modell und dessen Repräsentation innerhalb der Beispielanwendung sich verbessern.",
+          "en-US": "_Content modelling_ is the practice of structuring your content. At Contentful, you do this by creating _content types_. A content type can be thought of as a schema for content that is similiar. For each content type, you populate its fields. Each field represents one piece of data of a specific type.\n\nYou can referenece one content type from another to define relationships between them.\n\n## The content model of this lesson\n\nThe text you are reading now is stored in Contentful. Its content-type structure is as follows:\n\n- Lesson: used to group and arrange content\n- Lesson > Copy: one chunk of markdown content\n- Lesson > Code: one chunk of code in different languages\n- Lesson > Image: an image\n\n![content-model-lesson](//images.contentful.com/ft4tkuv7nwl0/1nXjR47jxOagUcc8iU6wUQ/2363d14a14ad8becb0869ebd5d2853c7/content-model-lesson.svg)\n\nTo model a _lesson_, we chose a modular approach where the content type called _Lesson_ uses a reference field that contains references to other content types.\n\nThis approach is benefitial because content writers can put chunks of information in any order they want. Meanwhile, developers can control how each chunk of information is presented.\n\n## The content model of this application\n\nThe following diagram displays the entire content model of this application.\n\nIn more detail:\n\n- The _Layout_ content type references the _Highlighted course_ content type.\n- The _Highlighted course_ content type references the _Course_ content type.\n- The _Course_ content type references the _Lesson_ content type.\n\nKnowing this, explore the hierarchy of this example app. Afterwards, explore the corresponding hierarchy of the content types in the Contentful web app. Doing so strengthens your understanding of the relationships between the content model and how it’s represented within this example app and the Contentful web app."
         }
       }
     },
@@ -6113,7 +5076,7 @@
         "id": "4te7lOGjyg8Uy64YyiQU84",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:57.465Z",
-        "updatedAt": "2017-11-01T11:47:32.466Z",
+        "updatedAt": "2017-11-08T13:41:12.344Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -6125,21 +5088,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
+        "version": 3,
         "firstPublishedAt": "2017-11-01T11:47:32.466Z",
-        "publishedAt": "2017-11-01T11:47:32.466Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -6172,66 +5126,10 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "3psVfETxUImsIk4isMOKkA",
-        "type": "Entry",
-        "createdAt": "2017-11-01T11:46:57.595Z",
-        "updatedAt": "2017-11-01T11:47:32.858Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-01T11:47:32.858Z",
-        "publishedAt": "2017-11-01T11:47:32.858Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "copy-lesson-modules-explained"
-        },
-        "copy": {
-          "en-US": "- Lesson (used to group and arrange content)\n- Lesson > Copy (one chunk of markdown content)\n- Lesson > Image (an image)\n- Lesson > Code Snippet (holds code snippets for different languages, not used in this lesson)\n\nTo model a _lesson_, we chose a modular approach where the content type _Lesson_ uses a reference field holding references to other content types.\n\nThis approach comes with many benefits. Editors can customize the content and layout of a lesson and are not tied down to a specific order of fields.  Developers can develop and maintain the presentation of each content type individually.\n\n> __Editors get as much control as possible, Developers keep as much control as required.__\n\nIn the diagram below the content types ancestors to a _lesson_ are shown. If you navigate back to the home section you can see the _highlighted course_ that the _layout_ defines. This _course_ holds a number of _lessons_. \n\nIdentifying these connections help to understand the architecture of this application."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "1AqQQzRvKAkEOekuMUcQIY",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:57.628Z",
-        "updatedAt": "2017-11-01T11:47:34.002Z",
+        "updatedAt": "2017-11-08T13:49:22.362Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -6243,21 +5141,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 539,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 538,
         "firstPublishedAt": "2017-11-01T11:47:34.002Z",
-        "publishedAt": "2017-11-01T11:47:34.002Z",
+        "publishedAt": "2017-11-08T13:49:22.362Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -6268,10 +5166,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "copy-connecting-dots"
+          "en-US": "Content management > copy"
         },
         "copy": {
-          "en-US": "In the most basic case, integration with Contentful consists of a client application consuming content, while using the _Contentful Web app_ to manage content. There are much more complex examples possible, but this is a good starting point.\n\n## Connecting the dots\n_This example app_ (yes, **THIS** app) acts as the content consumer. It is a custom application and a reference implementation around a Contentful SDK. In total we are supporting eight different languages. If this example is not using your preferred language, feel free to switch: [The Example App Enchilada](https://github.com/pugjs/pug)\n\nIn the diagram below this app is on the left consuming content through our Delivery, Preview and Images APIs."
+          "en-US": "A simple Contentful setup consists of a client application reading content, such as this example app, and another application that is writing content, such as the Contentful web app. The client application is reading content by connecting to the Content Delivery API, and the Contentful Web app is writing content by connecting to the Content Mangement API:\n\n![minimal contentful setup](//images.contentful.com/ft4tkuv7nwl0/3z7ErmBLIccwQkQkuEY0w4/bd438f4b8c540f56fcc76d75c688baf1/minimal-setup.svg)\n\nThe *Contentful web app* is a single page application that Contentful provides to help with the most common tasks when managing content:\n\n- Provide an interface for editors to write content.\n- Provide an interface for developes to configure a space, model data, define roles and permissions, and set up webhook notifications.\n\nAs mentioned, the Contentful web app is a client that uses the Content Management API. Therefore, you could replicate the functionality that the Contentful web app provides by making an API call. This is a powerful aspect of an API-first design because it helps you to connect Contentful to third-party systems.\n"
         }
       }
     },
@@ -6287,7 +5185,7 @@
         "id": "5jR4ciJ8Y8m2KKqmMKOkg4",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:57.691Z",
-        "updatedAt": "2017-11-01T11:47:34.384Z",
+        "updatedAt": "2017-11-08T13:45:15.372Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -6299,21 +5197,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 462,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 461,
         "firstPublishedAt": "2017-11-01T11:47:34.384Z",
-        "publishedAt": "2017-11-01T11:47:34.384Z",
+        "publishedAt": "2017-11-08T13:45:15.372Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -6324,10 +5222,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "hello-world-summary-copy"
+          "en-US": "Summary > Copy"
         },
         "copy": {
-          "en-US": "In the Hello World course you learned the basic concepts of Contentful. To summarize this is what we were covering:\n\n- Contentful is an API-first system to facilitate interoperability with other systems.\n- Contentful's content infrastructure is a service running 100% on Amazon Web Services.\n- Contentful is headless and provides JSON and binaries as output. Your applications consuming content provide their own presentation.\n- Contentful uses a data schema where content types and content are flexible, decoupled from presentation and can be controlled programmatically.\n- Contentful provides a Web app to work with content and to configure many aspects of the system.\n\n\n> __» This application is a reference implementation following best practices using a Contentful SDK . It is available in [8 different SDKs](http://example.com) «__\n"
+          "en-US": "In this course, you learned the basic concepts of Contentful:\n\n- Contentful’s API-first design facilitates connecting Contentful with third-party systems.\n- Contentful’s content infrastructure is a service that runs on AWS (Amazon Web Services).\n- Contentful is headless and provides JSON and binaries as output.\n- A client application that consumes content is in full control of its presentation.\n- Data modeling within Contentful uses flexible content types that are decoupled from presentation.\n- The Contentful web app is easy-to-use content editor.\n\n"
         }
       }
     },
@@ -6343,7 +5241,7 @@
         "id": "5DtGCVHfr2OC2Is6KceS0G",
         "type": "Entry",
         "createdAt": "2017-11-01T11:46:57.767Z",
-        "updatedAt": "2017-11-01T11:47:33.255Z",
+        "updatedAt": "2017-11-08T13:49:20.290Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -6355,21 +5253,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 171,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 170,
         "firstPublishedAt": "2017-11-01T11:47:33.255Z",
-        "publishedAt": "2017-11-01T11:47:33.255Z",
+        "publishedAt": "2017-11-08T13:49:20.290Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -6380,7 +5278,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "image-webapp"
+          "en-US": "Content management > image"
         },
         "image": {
           "en-US": {
@@ -6390,6 +5288,245 @@
               "id": "4CWJDjGTzaU8CMAW2eYeie"
             }
           }
+        },
+        "caption": {
+          "de-DE": "Die Contentful web app ist eine single page application welche die Content Management API benutzt. Sie kann genutzt werden um Inhalte zu Erstellen und um Einstellungen an Contentful vorzunehmen.",
+          "en-US": "The Contentful web app is a single page application sitting on top of our Content Management API. It can be used as an interface for content writers as well as for setup tasks."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "3k6uoYm9i8MycCm42IsY62",
+        "type": "Entry",
+        "createdAt": "2017-11-08T10:46:04.311Z",
+        "updatedAt": "2017-11-08T14:28:39.006Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "08JDkM79BdUNkxcmfnt78J"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 68,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedVersion": 67,
+        "firstPublishedAt": "2017-11-08T10:46:48.527Z",
+        "publishedAt": "2017-11-08T14:28:39.006Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "lessonCopy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "SDK basics > SDK initialization - API token tip"
+        },
+        "copy": {
+          "en-US": "New to APIs? An API token ensures that only an authorized person or application can pull content from your space."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "6gFiJvssqQ62CMYqECOu2M",
+        "type": "Entry",
+        "createdAt": "2017-11-08T12:53:09.849Z",
+        "updatedAt": "2017-11-08T15:42:06.082Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 137,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7uJNojWP0gbuP7Pplz7Syo"
+          }
+        },
+        "publishedVersion": 136,
+        "firstPublishedAt": "2017-11-08T12:55:00.351Z",
+        "publishedAt": "2017-11-08T15:42:06.082Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "lessonImage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Content model > image"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5o1Zu7UJheEGGQUC6gYEmS"
+            }
+          }
+        },
+        "caption": {
+          "de-DE": "Die Hierarchie der Content Types von der Startseite zu einer Lektion mit ihren Modulen.",
+          "en-US": "The full content type hierarchy from the home route down to a lesson with lesson modules."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "2VtCrK0G5OoeWCSQCWY8MW",
+        "type": "Entry",
+        "createdAt": "2017-11-08T13:22:33.802Z",
+        "updatedAt": "2017-11-08T13:33:01.284Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 82,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedVersion": 81,
+        "firstPublishedAt": "2017-11-08T13:33:01.284Z",
+        "publishedAt": "2017-11-08T13:33:01.284Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "lessonImage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Modular content > Image"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5RJ6nMcIEMAmceey6SI6Gu"
+            }
+          }
+        },
+        "caption": {
+          "en-US": "The modular content approach for the Layout content type. Each module represents a component which can be individually configured."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "6vTvFm3m5qwesGIeCOkq40",
+        "type": "Entry",
+        "createdAt": "2017-11-08T15:09:54.177Z",
+        "updatedAt": "2017-11-08T15:22:40.264Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "version": 33,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "layoutCopy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Home > Preview API Copy"
+        },
+        "headline": {
+          "en-US": "woooooooo"
+        },
+        "copy": {
+          "en-US": "Woooooooooooo"
         }
       }
     }
@@ -6590,252 +5727,6 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "4KsXzBUVjaS4oIGIMEmoCS",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:15.796Z",
-        "updatedAt": "2017-11-01T11:46:51.155Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:51.155Z",
-        "publishedAt": "2017-11-01T11:46:51.155Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "modules-diagrams"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/4KsXzBUVjaS4oIGIMEmoCS/7968dbcf32bcb00e73ffe2fc54ecfc82/modules-diagrams.svg",
-            "details": {
-              "size": 3001,
-              "image": {
-                "width": 300,
-                "height": 111
-              }
-            },
-            "fileName": "modules-diagrams.svg",
-            "contentType": "image/svg+xml"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "5DFyCspBe0iQYkEAwEA6Iq",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:15.951Z",
-        "updatedAt": "2017-11-01T11:46:45.384Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:45.384Z",
-        "publishedAt": "2017-11-01T11:46:45.384Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Headless CMS - Engineering history"
-        },
-        "description": {
-          "en-US": "A graphic showing the connections you might make with Contentful."
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/5DFyCspBe0iQYkEAwEA6Iq/32c8325dfe411e3beb446113baf0930c/EngineeringHistory.png",
-            "details": {
-              "size": 100983,
-              "image": {
-                "width": 1908,
-                "height": 887
-              }
-            },
-            "fileName": "EngineeringHistory.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "2JKQRYQ8ruk0q4w0IEIACY",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:15.951Z",
-        "updatedAt": "2017-11-01T11:46:50.069Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:50.069Z",
-        "publishedAt": "2017-11-01T11:46:50.069Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Headless CMS - JamStack"
-        },
-        "description": {
-          "en-US": "A fun image of chefs baking a website with a headless CMS"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/2JKQRYQ8ruk0q4w0IEIACY/0306034f6f20b66d3b577ddb88573994/JamStack.png",
-            "details": {
-              "size": 98258,
-              "image": {
-                "width": 1908,
-                "height": 895
-              }
-            },
-            "fileName": "JamStack.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "1ydfkIt2V2ueuq8gCegqEe",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:16.020Z",
-        "updatedAt": "2017-11-01T11:46:45.734Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:45.734Z",
-        "publishedAt": "2017-11-01T11:46:45.734Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "ctf"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/1ydfkIt2V2ueuq8gCegqEe/4cb655930cc493c6d1d7dd231accc7cc/Contentful_team.png",
-            "details": {
-              "size": 2492830,
-              "image": {
-                "width": 1500,
-                "height": 1016
-              }
-            },
-            "fileName": "Contentful_team.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "1PzXR2apawY8iYM4o0AUoi",
         "type": "Asset",
         "createdAt": "2017-11-01T11:46:16.035Z",
@@ -6896,133 +5787,10 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "1JOkYZnY8YG0w88ImweME2",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:16.057Z",
-        "updatedAt": "2017-11-01T11:46:46.669Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:46.669Z",
-        "publishedAt": "2017-11-01T11:46:46.669Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Fake Github repo"
-        },
-        "description": {
-          "en-US": "An image simulating a Github repo that is private"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/1JOkYZnY8YG0w88ImweME2/26ed86af7f5d40d42547a1c0231fe46d/Github-repo_2x__1_.png",
-            "details": {
-              "size": 83833,
-              "image": {
-                "width": 2048,
-                "height": 700
-              }
-            },
-            "fileName": "Github-repo@2x (1).png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "4WSqAVKz0kWs0GkUOsIeEu",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:16.089Z",
-        "updatedAt": "2017-11-01T11:46:47.436Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:47.436Z",
-        "publishedAt": "2017-11-01T11:46:47.436Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "tea-full-content-model"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/4WSqAVKz0kWs0GkUOsIeEu/00fa5c4354c386f61e0c79efd5d409db/tea-full-content-model.svg",
-            "details": {
-              "size": 3746,
-              "image": {
-                "width": 581,
-                "height": 330
-              }
-            },
-            "fileName": "tea-full-content-model.svg",
-            "contentType": "image/svg+xml"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "1YK5kwroV6UEGS64mQs0Eo",
         "type": "Asset",
         "createdAt": "2017-11-01T11:46:16.244Z",
-        "updatedAt": "2017-11-01T11:46:47.797Z",
+        "updatedAt": "2017-11-08T10:57:51.508Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -7034,31 +5802,31 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 2,
+        "publishedVersion": 14,
         "firstPublishedAt": "2017-11-01T11:46:47.797Z",
-        "publishedAt": "2017-11-01T11:46:47.797Z"
+        "publishedAt": "2017-11-08T10:57:51.508Z"
       },
       "fields": {
         "title": {
-          "en-US": "hello-architecture-api-first-image"
+          "en-US": "api first"
         },
         "file": {
           "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/1YK5kwroV6UEGS64mQs0Eo/8af53ba804ed2028376386d5c6e12e31/api-first.svg",
+            "url": "//images.contentful.com/ft4tkuv7nwl0/1YK5kwroV6UEGS64mQs0Eo/c5eb53f39703f73d215e7ed8ad2f88e6/api-first.svg",
             "details": {
-              "size": 12309,
+              "size": 12296,
               "image": {
                 "width": 726,
                 "height": 296
@@ -7079,70 +5847,10 @@
             "id": "ft4tkuv7nwl0"
           }
         },
-        "id": "1Qx0CdNcf6YAoa0IIUUUgM",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:16.418Z",
-        "updatedAt": "2017-11-01T11:46:49.574Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:49.574Z",
-        "publishedAt": "2017-11-01T11:46:49.574Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "tea-lesson-content-model"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/1Qx0CdNcf6YAoa0IIUUUgM/058e57a07539199ac901c4d1bf4e6110/tea-lesson-content-model.svg",
-            "details": {
-              "size": 5160,
-              "image": {
-                "width": 887,
-                "height": 397
-              }
-            },
-            "fileName": "tea-lesson-content-model.svg",
-            "contentType": "image/svg+xml"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
         "id": "3z7ErmBLIccwQkQkuEY0w4",
         "type": "Asset",
         "createdAt": "2017-11-01T11:46:16.435Z",
-        "updatedAt": "2017-11-01T11:46:48.193Z",
+        "updatedAt": "2017-11-08T10:54:45.210Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -7154,97 +5862,37 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "publishedVersion": 2,
+        "publishedVersion": 19,
         "firstPublishedAt": "2017-11-01T11:46:48.193Z",
-        "publishedAt": "2017-11-01T11:46:48.193Z"
+        "publishedAt": "2017-11-08T10:54:45.210Z"
       },
       "fields": {
         "title": {
-          "en-US": "webapp-contentful-example-app"
+          "en-US": "minimal contentful setup"
         },
         "file": {
           "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/3z7ErmBLIccwQkQkuEY0w4/9029d88b0ba87284f53612dc12cfcefb/minimal-setup.svg",
+            "url": "//images.contentful.com/ft4tkuv7nwl0/3z7ErmBLIccwQkQkuEY0w4/bd438f4b8c540f56fcc76d75c688baf1/minimal-setup.svg",
             "details": {
-              "size": 50794,
+              "size": 52144,
               "image": {
-                "width": 642,
-                "height": 219
+                "width": 708,
+                "height": 232
               }
             },
             "fileName": "minimal-setup.svg",
-            "contentType": "image/svg+xml"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "ft4tkuv7nwl0"
-          }
-        },
-        "id": "6YqgefHM5yuA0yAQaU0OOE",
-        "type": "Asset",
-        "createdAt": "2017-11-01T11:46:16.493Z",
-        "updatedAt": "2017-11-01T11:46:49.229Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
-          }
-        },
-        "publishedVersion": 2,
-        "firstPublishedAt": "2017-11-01T11:46:49.229Z",
-        "publishedAt": "2017-11-01T11:46:49.229Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "content-model"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/ft4tkuv7nwl0/6YqgefHM5yuA0yAQaU0OOE/b6741f925aa68e251208ac902feca999/TEA-content-model.svg",
-            "details": {
-              "size": 4729,
-              "image": {
-                "width": 1028,
-                "height": 426
-              }
-            },
-            "fileName": "TEA-content-model.svg",
             "contentType": "image/svg+xml"
           }
         }
@@ -7309,6 +5957,186 @@
           }
         }
       }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "1nXjR47jxOagUcc8iU6wUQ",
+        "type": "Asset",
+        "createdAt": "2017-11-08T12:49:50.116Z",
+        "updatedAt": "2017-11-08T14:59:54.660Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedVersion": 6,
+        "firstPublishedAt": "2017-11-08T12:50:15.696Z",
+        "publishedAt": "2017-11-08T14:59:54.660Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "content-model-lesson"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/ft4tkuv7nwl0/1nXjR47jxOagUcc8iU6wUQ/2363d14a14ad8becb0869ebd5d2853c7/content-model-lesson.svg",
+            "details": {
+              "size": 3137,
+              "image": {
+                "width": 333,
+                "height": 215
+              }
+            },
+            "fileName": "content-model-lesson.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "5o1Zu7UJheEGGQUC6gYEmS",
+        "type": "Asset",
+        "createdAt": "2017-11-08T12:49:50.127Z",
+        "updatedAt": "2017-11-08T12:50:15.685Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedVersion": 2,
+        "firstPublishedAt": "2017-11-08T12:50:15.685Z",
+        "publishedAt": "2017-11-08T12:50:15.685Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "content-model-full"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/ft4tkuv7nwl0/5o1Zu7UJheEGGQUC6gYEmS/46ba0b0d5bf9f624c1b6498092bfefbf/content-model-full.svg",
+            "details": {
+              "size": 5493,
+              "image": {
+                "width": 313,
+                "height": 567
+              }
+            },
+            "fileName": "content-model-full.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ft4tkuv7nwl0"
+          }
+        },
+        "id": "5RJ6nMcIEMAmceey6SI6Gu",
+        "type": "Asset",
+        "createdAt": "2017-11-08T13:31:44.143Z",
+        "updatedAt": "2017-11-08T13:32:00.156Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5NItczv8FWvPn5UTJpTOMM"
+          }
+        },
+        "publishedVersion": 10,
+        "firstPublishedAt": "2017-11-08T13:32:00.156Z",
+        "publishedAt": "2017-11-08T13:32:00.156Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "content model layout"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/ft4tkuv7nwl0/5RJ6nMcIEMAmceey6SI6Gu/478ef82e23d804ccc4f3913ffa8ac6a3/content-model-layout.svg",
+            "details": {
+              "size": 3221,
+              "image": {
+                "width": 514,
+                "height": 268
+              }
+            },
+            "fileName": "content-model-layout.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
     }
   ],
   "locales": [
@@ -7350,8 +6178,8 @@
       }
     },
     {
-      "name": "German",
-      "code": "de",
+      "name": "German (Germany)",
+      "code": "de-DE",
       "fallbackCode": "en-US",
       "default": false,
       "contentManagementApi": true,
@@ -7360,7 +6188,7 @@
       "sys": {
         "type": "Locale",
         "id": "1io85vsTjGMYieV4Ck6nD8",
-        "version": 0,
+        "version": 1,
         "space": {
           "sys": {
             "type": "Link",
@@ -7380,10 +6208,10 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6lLQmABUWbGOsBJ8pMV4vI"
+            "id": "5NItczv8FWvPn5UTJpTOMM"
           }
         },
-        "updatedAt": "2017-11-01T11:46:05Z"
+        "updatedAt": "2017-11-07T16:54:32Z"
       }
     }
   ],

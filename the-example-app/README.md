@@ -47,5 +47,5 @@ We are hosting versions of this content model for demo purposes. `The Example Ap
 
 Visual graph of content model
 =============================
-
+Using [contentful-graph](https://www.npmjs.com/package/contentful-graph) the following graph was generated to visualize the content model.
 ![graph of content model](https://raw.githubusercontent.com/contentful/content-models/master/the-example-app/the-example-app-space-v1.png)

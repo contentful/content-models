@@ -41,6 +41,6 @@ Credentials
 
 This example uses the following keys
 
-* Space ID: `ft4tkuv7nwl0`
-* Content Delivery API (CDA): `57459fe48bd2b1bef4855294455af52562dbc0c7f0eb84f8b2cd68692c186417`
-* Content Preview API (CPA): `a9972e3cd83528def2fc9d3428c67cd622eb26d0a24239718c6ac61fe0288f2f`
+* Space ID: `qz0n5cdakyl9`
+* Content Delivery API (CDA): `580d5944194846b690dd89b630a1cb98a0eef6a19b860ef71efc37ee8076ddb8`
+* Content Preview API (CPA): `e8fc39d9661c7468d0285a7ff949f7a23539dd2e686fcb7bd84dc01b392d698b`

@@ -9,10 +9,20 @@ Through our [command line app](https://github.com/contentful/contentful-cli) you
 accomplished by this call to the command line app:
 
 ```
-contentful space seed the-example-app
+contentful space seed -s '<SPACE_ID>' -t the-example-app
 ```
 
 The app will walk you through the steps needed in order to fill your space.
+
+If you happen to not have a `<SPACE_ID>`, as in a Space you can overwrite, use the cli to create a new one:
+
+```
+contentful space create -n '[COPY] The example app'
+```
+
+And then retry the upper code again.
+
+
 
 Other apps
 ==========

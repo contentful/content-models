@@ -27,7 +27,7 @@ And then retry the upper code again.
 Compatible apps
 ==========
 
-The content model `The example app` is compatible with platform specific example apps. It works alongside the apps source code and forms a reference Contentful setup.
+The content model `The example app` is is used in platform specific example apps to form a reference Contentful setup.
 
 | Platform  | Repository | Hosted version |
 | - | - | - |

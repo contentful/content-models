@@ -39,9 +39,9 @@ Versions
 
 We are hosting different versions of this content model for demo purposes. `The Example App` can be connected to these versions through `variables.env` when run locally or through query parameters when hosted. For example: `https://the-example-app-nodejs.herokuapp.com/?space_id=<YOUR_CLONED_SPACE_ID>&delivery_token=<YOUR_DELIVERY_TOKEN>&preview_token=<YOUR_PREVIEW_TOKEN>`
 
-| Version  | Space Id | Content Delivery API - access token | Content Preview API - access token |
-| - | - | - | - |
-| 1.0 | `ft4tkuv7nwl0` | `57459fe48bd2b1bef4855294455af52562dbc0c7f0eb84f8b2cd68692c186417` | `a9972e3cd83528def2fc9d3428c67cd622eb26d0a24239718c6ac61fe0288f2f` |
+| Version  | Space Id | Access tokens |
+| - | - | - |
+| 1.0 | `qz0n5cdakyl9` | Content Delivery API: `580d5944194846b690dd89b630a1cb98a0eef6a19b860ef71efc37ee8076ddb8`, Content Preview API: `e8fc39d9661c7468d0285a7ff949f7a23539dd2e686fcb7bd84dc01b392d698b` |
 
 **Note:** We are sharing read-only tokens here for demo purposes. Tokens should in general be treated like passwords and not be shared with a public audience.
 

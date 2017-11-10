@@ -24,14 +24,14 @@ And then retry the upper code again.
 
 
 
-Other apps
+Compatible apps
 ==========
 
-The Node example app is not the only one. Soon™ there will be more available, all using the
-same space.
+The content model `The example app` is compatible with platform specific example apps. It works alongside the apps source code and forms a reference Contentful setup.
 
-Stay tuned for updates on the model and example apps.
-
+| Platform  | Repository | Hosted version |
+| - | - | - |
+| node.js | [https://github.com/contentful/the-example-app.nodejs](https://github.com/contentful/the-example-app.nodejs) | [the-example-app-nodejs.herokuapp.com](the-example-app-nodejs.herokuapp.com) |
 
 
 Versions

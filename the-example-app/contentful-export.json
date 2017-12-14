@@ -376,7 +376,7 @@
           "id": "title",
           "name": "Title",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
           ],
@@ -827,7 +827,7 @@
           "id": "headline",
           "name": "Headline",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": false,
           "validations": [
           ],
@@ -838,7 +838,7 @@
           "id": "copy",
           "name": "Copy",
           "type": "Text",
-          "localized": false,
+          "localized": true,
           "required": false,
           "validations": [
           ],
@@ -963,7 +963,7 @@
           "id": "headline",
           "name": "Headline",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": false,
           "validations": [
           ],

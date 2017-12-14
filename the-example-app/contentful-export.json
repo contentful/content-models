@@ -2325,13 +2325,6 @@
           "en-US": "hello-world"
         },
         "image": {
-          "de-DE": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "3z7ErmBLIccwQkQkuEY0w4"
-            }
-          },
           "en-US": {
             "sys": {
               "type": "Link",

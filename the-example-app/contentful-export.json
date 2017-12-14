@@ -119,7 +119,7 @@
           "id": "title",
           "name": "Title",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": true,
           "validations": [
             {

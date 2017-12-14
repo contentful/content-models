@@ -3353,61 +3353,6 @@
             "id": "qz0n5cdakyl9"
           }
         },
-        "id": "77NL8rGPks6SauGuoG8ui",
-        "type": "Entry",
-        "createdAt": "2017-12-12T14:02:49.950Z",
-        "updatedAt": "2017-12-12T14:26:56.264Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "version": 57,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "layoutHeroImage"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Home > Hero image"
-        },
-        "headline": {
-          "de-DE": "Grüße von Contentful",
-          "en-US": "Greetings from Contentful"
-        },
-        "backgroundImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4dgP2U7BeMuk0icguS4qGw"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qz0n5cdakyl9"
-          }
-        },
         "id": "3KinTi83FecuMeiUo0qGU4",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:57.815Z",
@@ -4479,13 +4424,6 @@
                 "linkType": "Entry",
                 "id": "4B9n4zqG6QCgui8YiUs4Yc"
               }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "77NL8rGPks6SauGuoG8ui"
-              }
             }
           ]
         }
@@ -5034,66 +4972,6 @@
               }
             },
             "fileName": "validations.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qz0n5cdakyl9"
-          }
-        },
-        "id": "4dgP2U7BeMuk0icguS4qGw",
-        "type": "Asset",
-        "createdAt": "2017-12-12T14:03:25.362Z",
-        "updatedAt": "2017-12-12T14:17:13.653Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 12,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "publishedVersion": 8,
-        "firstPublishedAt": "2017-12-12T14:12:34.698Z",
-        "publishedAt": "2017-12-12T14:12:34.698Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "contentful-team"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/qz0n5cdakyl9/4dgP2U7BeMuk0icguS4qGw/52cdd3491ac9824da1b1ae2c51a6c30c/Contentful_team.png",
-            "details": {
-              "size": 2492830,
-              "image": {
-                "width": 1500,
-                "height": 1016
-              }
-            },
-            "fileName": "Contentful_team.png",
             "contentType": "image/png"
           }
         }

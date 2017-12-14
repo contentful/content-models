@@ -3371,18 +3371,7 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 1,
         "version": 57,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "publishedVersion": 35,
-        "firstPublishedAt": "2017-12-12T14:13:06.232Z",
-        "publishedAt": "2017-12-12T14:13:06.232Z",
         "contentType": {
           "sys": {
             "type": "Link",

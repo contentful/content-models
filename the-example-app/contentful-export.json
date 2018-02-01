@@ -1857,7 +1857,7 @@
         "id": "5jR4ciJ8Y8m2KKqmMKOkg4",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.090Z",
-        "updatedAt": "2017-12-12T12:44:32.924Z",
+        "updatedAt": "2018-02-01T13:24:32.444Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1872,8 +1872,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 4,
-        "version": 589,
+        "publishedCounter": 5,
+        "version": 712,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1881,9 +1881,9 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 588,
+        "publishedVersion": 711,
         "firstPublishedAt": "2017-11-08T16:07:28.250Z",
-        "publishedAt": "2017-12-12T12:44:32.924Z",
+        "publishedAt": "2018-02-01T13:24:32.444Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1897,8 +1897,8 @@
           "en-US": "Summary > copy"
         },
         "copy": {
-          "de-DE": "In diesem Kurs haben sie die grundlegenden Konzepte von Contentful kennengelernt:\n\n- `API-first`-Denkweise von Contentful erleichtert die Verbindung von Contentful und Contentful-fremden Systemen.\n- Contentful ist ein _Content Infrastructure As a Service_, welcher auf AWS (Amazon Web Services) läuft.\n- Contentful ist `headless` und bietet sowohl JSON als auch binäre Antworten an.\n- Eine `Client`-Anwendung die Inhalte von Contentful verarbeitet, hat stets die volle Kontrolle über visuelle representation des Inhalts.\n- Datenmodellierung innerhalb von Contentful benutzt flexible Content Typen, die entkoppelt von der Presentation ist.\n- Die Contentful Web-Anwendung ist ein einfach zu verwendender Editor.",
-          "en-US": "In this course, you learned the basic concepts of Contentful:\n\n- Contentful’s API-first design facilitates connecting Contentful with third-party systems.\n- Contentful’s content infrastructure is a service that runs on AWS (Amazon Web Services).\n- Contentful is headless and provides JSON and binaries as output.\n- A client application that consumes content is in full control of its presentation.\n- Data modeling within Contentful uses flexible content types that are decoupled from presentation.\n- The Contentful web app is easy-to-use content editor.\n\n"
+          "de-DE": "In diesem Kurs haben sie die grundlegenden Konzepte von Contentful kennengelernt:\n\n- `API-first`-Denkweise von Contentful erleichtert die Verbindung von Contentful und Contentful-fremden Systemen.\n- Contentful ist `headless` und bietet sowohl JSON als auch binäre Antworten an.\n- Eine `Client`-Anwendung die Inhalte von Contentful verarbeitet, hat stets die volle Kontrolle über visuelle representation des Inhalts.\n- Datenmodellierung innerhalb von Contentful benutzt flexible Content Typen, die entkoppelt von der Presentation ist.\n- Die Contentful Web-Anwendung ist ein einfach zu verwendender Editor.",
+          "en-US": "In this course, we went through the basic concepts of Contentful:\n\n- Contentful’s API-first approach facilitates connecting Contentful with third-party systems\n- Contentful has no built-in templates and provides JSON as well as binaries as outputs\n- A client application created with Contentful is in full control of its presentation\n- Data modeling with Contentful uses flexible content types that are decoupled from presentation\n- The Contentful web app is an easy-to-use editor for authoring content\n\nIf you have any questions, head over to the [Contentful Community](https://www.contentfulcommunity.com/) forum or [contact support](https://www.contentful.com/support/).\n"
         }
       }
     },
@@ -2037,7 +2037,7 @@
         "id": "1AqQQzRvKAkEOekuMUcQIY",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.290Z",
-        "updatedAt": "2017-12-11T14:54:46.413Z",
+        "updatedAt": "2018-01-29T17:27:42.808Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2049,21 +2049,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 3,
-        "version": 898,
+        "publishedCounter": 4,
+        "version": 906,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 897,
+        "publishedVersion": 905,
         "firstPublishedAt": "2017-11-08T16:07:29.427Z",
-        "publishedAt": "2017-12-11T14:54:46.413Z",
+        "publishedAt": "2018-01-29T17:27:42.808Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2078,7 +2078,7 @@
         },
         "copy": {
           "de-DE": "Der Aufbau einer einfachen Anwendung die Contentful benutzt, besteht aus einer Anwendung, die den Inhalt liest, wie zum Beispiel diese Beispielanwendung und einer Weiteren, die den Inhalt erzeugt und verändert. Dies ist die Contentful Web-Anwendung. Die Anwendung liest den Inhalt, indem sie sich mit der Content Delivery API verbindet. Die Contentful Web-Anwendung schreibt Inhalt indem sie mit der Content Management API verbunden ist:\n\n![minimal contentful setup](//images.contentful.com/qz0n5cdakyl9/3z7ErmBLIccwQkQkuEY0w4/792f81c7d92d195abf89ea936071d1f6/webapp-contentful-example-app.svg)\n\nDie *Contentful Web-Anwendung* ist eine _single page_ Anwendung, die von Contentful zur Verfügung gestellt wird, um alle Aufgaben rund ums Content Management zu erledigen:\n\n- Schreiben von Inhalten durch Autoren.\n- Einrichten des Spaces, der Content Types, Zugriffsrechte und Webhook-Benachrichtigungen durch Entwickler.\n\nWie bereits erwähnt, benutzt die Contentful Web-Anwendung die Content Management API. Daher können Sie diese Funktionen selber nachbauen, indem Sie die gleichen API-Anfragen durchführen. Dies ist ein sehr mächtiger Aspekt der _API-First_-Sichtweise, da sie Ihnen hilft Contentful in Contentful-fremden Systemen einzusetzen.",
-          "en-US": "A simple Contentful setup consists of a client application reading content, such as this example app, and another application that is writing content, such as the Contentful web app. The client application is reading content by connecting to the Content Delivery API, and the Contentful Web app is writing content by connecting to the Content Mangement API:\n\n![minimal contentful setup](//images.contentful.com/qz0n5cdakyl9/3z7ErmBLIccwQkQkuEY0w4/792f81c7d92d195abf89ea936071d1f6/webapp-contentful-example-app.svg)\n\nThe *Contentful web app* is a single page application that Contentful provides to help with the most common tasks when managing content:\n\n- Provide an interface for editors to write content.\n- Provide an interface for developes to configure a space, model data, define roles and permissions, and set up webhook notifications.\n\nAs mentioned, the Contentful web app is a client that uses the Content Management API. Therefore, you could replicate the functionality that the Contentful web app provides by making an API call. This is a powerful aspect of an API-first design because it helps you to connect Contentful to third-party systems.\n"
+          "en-US": "A basic Contentful setup consists of a client application reading content, this example app for instance, and another application that is writing content, like the Contentful web app. The client application is reading content by connecting to the Content Delivery API. The Contentful web app, on the other hand, is writing content by connecting to the Content Mangement API:\n\n![minimal contentful setup](//images.contentful.com/qz0n5cdakyl9/3z7ErmBLIccwQkQkuEY0w4/792f81c7d92d195abf89ea936071d1f6/webapp-contentful-example-app.svg)\n\nThe Contentful web app is a single page application created by Contentful and assists with common content management tasks. The Contentful web app provides:\n\n-  An interface for editors to write content\n- An interface for developers to configure a space, model data, define roles and permissions, and set up webhook notifications\n\nAs mentioned, the Contentful web app is a client that uses the Content Management API. Therefore, you could replicate the functionality that the Contentful web app provides by making an API call. This is a powerful aspect of an API-first design because it helps you to connect Contentful to third-party systems."
         }
       }
     },
@@ -2151,7 +2151,7 @@
         "id": "4qT1W3HXewc0SscAs80UuA",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.431Z",
-        "updatedAt": "2017-12-11T14:46:43.520Z",
+        "updatedAt": "2018-01-29T17:39:19.719Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2163,21 +2163,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 3,
-        "version": 9,
+        "publishedCounter": 4,
+        "version": 21,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 8,
+        "publishedVersion": 20,
         "firstPublishedAt": "2017-11-08T16:07:30.576Z",
-        "publishedAt": "2017-12-11T14:46:43.520Z",
+        "publishedAt": "2018-01-29T17:39:19.719Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2192,7 +2192,7 @@
         },
         "copy": {
           "de-DE": "Unter _Content-Modellierung_ versteht man die Art und Weise Inhalt zu strukturieren. Hier in Contentful, passiert dies durch _Content Types_. Ein Content Type kann man sich als Schema gleichen Inhalts vorstellen: Für jeden Content Type spezifiziert man dessen Eigenschaften, hier _Fields_ genannt. Diese _Fields_ repäsentieren ein Aspekt eines Content Types. \n\nSie können Content Types auch sich gegenseitig referenzieren lassen.\n\n## Der Content Type dieser Lektion\n\nDen Text den Sie hier lesen, wurde in Contentful gespeichert. Sein Content Type sieht wie folgt aus:\n\n- Lesson: wird benutzt um Inhalt zu grupieren und neu anzuordnen.\n- Lesson > Copy: Ein Block von Markdown-Text \n- Lesson > Code: Ein Block von Quellcode\n- Lesson > Image: Ein Bild\n\n![content-model-lesson](//images.contentful.com/qz0n5cdakyl9/1nXjR47jxOagUcc8iU6wUQ/54f18a32ed182a6fcb4f49f3ae242067/content-model-lesson.svg)\n\nUm eine _Lektion_ zu modellieren, wählten wir auch hier wieder die modulare Sichtweise: Wir gaben dem Content Type _Lesson_ verschiedene Referenzen auf andere Content Types.\n\nDiese Herangehensweise ist für Autoren vorteilhaft, da sie Teile des Inhaltes so leicht neuanordnen können. Gleichzeitig können Entwickler die Kontrolle behalten, wie einzelne Teile an Inhalt dargestellt werden.\n\n\n## Das Content-Modell dieser Anwendung\n\nDas folgende Diagramm zeigt das gesamte Content-Modell dieser Anwendung:\n\nIn detail:\n\n- Der _Layout_ Content Type referenziert den _Highlighted course_ Content Type.\n- Der _Highlighted course_ Content Type referenziert den _Course_ content type.\n- Der _Course_ Content Type referenziert den _Lesson_ Content Type.\n\nMit diesem Wissen, können Sie nun die Hierarchie der Besipielanwendung erkunden. Dannach, erkunden Sie die Hierarchie der Content Types in der Contentful Webanwendung. Sobald Sie dies getan haben, wird Ihr Verständniss für die Interaktion zwischen Content-Modell und dessen Repräsentation innerhalb der Beispielanwendung sich verbessern.",
-          "en-US": "_Content modelling_ is the practice of structuring your content. At Contentful, you do this by creating _content types_. A content type can be thought of as a schema for content that is similiar. For each content type, you populate its fields. Each field represents one piece of data of a specific type.\n\nYou can referenece one content type from another to define relationships between them.\n\n## The content model of this lesson\n\nThe text you are reading now is stored in Contentful. Its content-type structure is as follows:\n\n- Lesson: used to group and arrange content\n- Lesson > Copy: one chunk of markdown content\n- Lesson > Code: one chunk of code in different languages\n- Lesson > Image: an image\n\n![content-model-lesson](//images.contentful.com/qz0n5cdakyl9/1nXjR47jxOagUcc8iU6wUQ/54f18a32ed182a6fcb4f49f3ae242067/content-model-lesson.svg)\n\nTo model a _lesson_, we chose a modular approach where the content type called _Lesson_ uses a reference field that contains references to other content types.\n\nThis approach is benefitial because content writers can put chunks of information in any order they want. Meanwhile, developers can control how each chunk of information is presented.\n\n## The content model of this application\n\nThe following diagram displays the entire content model of this application.\n\nIn more detail:\n\n- The _Layout_ content type references the _Highlighted course_ content type.\n- The _Highlighted course_ content type references the _Course_ content type.\n- The _Course_ content type references the _Lesson_ content type.\n\nKnowing this, explore the hierarchy of this example app. Afterwards, explore the corresponding hierarchy of the content types in the Contentful web app. Doing so strengthens your understanding of the relationships between the content model and how it’s represented within this example app and the Contentful web app."
+          "en-US": "_Content modelling_ is the practice of structuring your content. At Contentful, you do this by creating _content types_. Think of a content type as a schema for bits of content that are similar. For each content type, you populate its fields. Each field represents one piece of data of a specific type.\n\nYou can reference one content type from another to define relationships between them.\n\n## The content model of this lesson\n\nThe text that you're reading now is stored in Contentful. Its content type structure is as follows:\n\n- **Lesson**: Used to group and arrange content\n- **Lesson > Copy**: One chunk of markdown content\n- **Lesson > Code**: One chunk of code in different languages\n- **Lesson > Image**: An image\n\n![content-model-lesson](//images.contentful.com/qz0n5cdakyl9/1nXjR47jxOagUcc8iU6wUQ/54f18a32ed182a6fcb4f49f3ae242067/content-model-lesson.svg)\n\nTo model a _lesson_, we chose a modular approach where the content type called _Lesson_ uses a reference field that contains references to other content types.\n\nThis approach is beneficial because content creators can arrange chunks of information in any order they want. Meanwhile, developers can control the how each chunk of information is presented.\n\n## The content model of this application\n\nThe following diagram displays the entire content model of this application, including: \n\n- The _Layout_ content type references the _Highlighted course_ content type\n- The _Highlighted course_ content type references the _Course_ content type\n- The _Course_ content type references the _Lesson_ content type\n\nKnowing this, you can look into the hierarchy of this example app. Then, check out the corresponding hierarchy of the content types in the Contentful web app. Exploring the setup of this application will help strengthen your understanding of the relationships between the content model. Additionally, it shows how this is represented within this example app and the Contentful web app."
         }
       }
     },
@@ -2208,7 +2208,7 @@
         "id": "41fdMtrUzmiqKykUwA8u2A",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.673Z",
-        "updatedAt": "2017-12-12T12:44:03.370Z",
+        "updatedAt": "2018-02-01T13:40:48.407Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2223,8 +2223,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2232,9 +2232,9 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 3,
+        "publishedVersion": 5,
         "firstPublishedAt": "2017-11-08T16:07:36.026Z",
-        "publishedAt": "2017-12-12T12:44:03.370Z",
+        "publishedAt": "2018-02-01T13:40:48.407Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2245,7 +2245,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Architecture > image"
+          "en-US": "APIs > image"
         },
         "image": {
           "en-US": {
@@ -2274,7 +2274,7 @@
         "id": "7iCSSldqDuUkG4GWa46uUq",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.699Z",
-        "updatedAt": "2017-12-11T14:36:44.710Z",
+        "updatedAt": "2018-02-01T13:41:01.713Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2289,8 +2289,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 5,
-        "version": 16,
+        "publishedCounter": 7,
+        "version": 24,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2298,9 +2298,9 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 15,
+        "publishedVersion": 23,
         "firstPublishedAt": "2017-11-08T16:07:34.940Z",
-        "publishedAt": "2017-12-11T14:36:44.710Z",
+        "publishedAt": "2018-02-01T13:41:01.713Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2311,11 +2311,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "Architecture > copy"
+          "en-US": "APIs > copy"
         },
         "copy": {
           "de-DE": "## API-first\n\nContentful folgt der API-First-Denkweise, dies bedeutet, dass alle Funktionalitäten durch die API zur Verfügung gestellt werden.\n\nD.h. Sie können:\n- Datenschemata verändern, oder Webhooks durch die Content Managewment API konfigurieren.\n- Platformunabhängigen Inhalt mittels unserer Contend Delivery API verteilen.\n- Entwürfe von unveröffentlichten Inhalt durch unsere Content Preview API begutachten.\n- Bilder skalieren, schneiden oder erneut komprimieren unter zuhilfenahme unserer Images API.\n\n![api first](//images.contentful.com/qz0n5cdakyl9/1YK5kwroV6UEGS64mQs0Eo/c19b700d5c8d0f44b758c4b2bb79c586/contentful-four-apis.svg)\n\nContentful ist ein sogennantes `Headless CMS`, das bedeuted, das kein `Templating` und kein Präsentationslayer fest mit Ihrem Inhalt verbunden ist. Stattdessen hat ein Entwickler die komplette Freiheit eine Anwendung zu bauen die Contentful benutzt. Auf diese Art und Weise, können Sie Ihre Anwendung komplett von Contentful entkoppeln können.\n\nDies sind die minimalen Anforderungen von Contentful:\n\n- Unterstützung des Protokolls HTTP\n- Verarbeitung von JSON-Daten\n\nMehr ist nicht nötig, Sie haben die Freiheit sich Ihre Technologie selbst auszusuchen.",
-          "en-US": "## API-first\n\nContentful follows an API-first approach, which means all functionality is provided through an API.\n\nThis means you can:\n- modify data schemas or configure a webhook through the Content Management API.\n- deliver cross-channel content through the Content Delivery API.\n- preview unpubublished content through the Content Preview API.\n- resize, crop, or re-compress images through the Images API.\n\n![api first](//images.contentful.com/qz0n5cdakyl9/1YK5kwroV6UEGS64mQs0Eo/c19b700d5c8d0f44b758c4b2bb79c586/contentful-four-apis.svg)\n\nContentful is a headless CMS; there is no templating or presentation layer tied to the content. Instead, a developer has complete freedom when it comes to building an application that consumes and presents content from Contentful. This allows you to decouple your applications from Contentful's services.\n\nContentful has minimal requirements:\n- support for HTTP\n- parsing of JSON\n\nBeyond that, you are free to chose any technology you want."
+          "en-US": "## API-first\n\nContentful follows an API-first approach, which means that all of its functionality is provided by an API.\n\nThis enables you to:\n\n- Modify data schemas or configure a webhook through the Content Management API\n- Deliver cross-channel content through the Content Delivery API\n- Preview unpublished content through the Content Preview API\n- Resize, crop, or re-compress images through the Images API\n\n![api first](//images.contentful.com/qz0n5cdakyl9/1YK5kwroV6UEGS64mQs0Eo/c19b700d5c8d0f44b758c4b2bb79c586/contentful-four-apis.svg)\n\nContentful is a content infrastructure, so there is no templating or presentation layer tied to the content. Instead, a developer has total freedom when it comes to the build of an application that consumes and presents content from Contentful. This also allows you to decouple your applications from Contentful's services.\n\nContentful has minimal requirements:\n\n- Support for HTTP\n- Parsing of JSON\n\nBeyond that, you are free to choose any technology you want."
         }
       }
     },
@@ -2331,7 +2331,7 @@
         "id": "3Y1JQg9bjqIG6OgA2KAM4A",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.756Z",
-        "updatedAt": "2017-11-09T12:08:19.402Z",
+        "updatedAt": "2018-01-29T17:53:10.744Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2343,21 +2343,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 2,
-        "version": 107,
+        "publishedCounter": 3,
+        "version": 112,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 106,
+        "publishedVersion": 111,
         "firstPublishedAt": "2017-11-08T16:07:37.081Z",
-        "publishedAt": "2017-11-09T12:08:19.401Z",
+        "publishedAt": "2018-01-29T17:53:10.744Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2372,7 +2372,7 @@
         },
         "copy": {
           "de-DE": "Um die Kommunikation mit Contentful so einfach wie nur möglich zu gestallten, haben wir verschiedene Open Source SDKs erzeugt.\n\nInstallieren Sie die SDKs wie folgt:",
-          "en-US": "To make communication with Contentful as easy as possible, we created open-source SDKs.\n\nInstall an SDK:"
+          "en-US": "To make communication with Contentful as simple as possible, we've created open source SDKs.\n\nInstall an SDK:"
         }
       }
     },
@@ -2548,7 +2548,7 @@
         "id": "5WZ7JD9Hb2Myi6uYYSscIw",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:58.962Z",
-        "updatedAt": "2017-11-09T12:09:57.589Z",
+        "updatedAt": "2018-01-29T17:52:04.374Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2560,21 +2560,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 2,
-        "version": 109,
+        "publishedCounter": 3,
+        "version": 112,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 108,
+        "publishedVersion": 111,
         "firstPublishedAt": "2017-11-08T16:07:40.510Z",
-        "publishedAt": "2017-11-09T12:09:57.589Z",
+        "publishedAt": "2018-01-29T17:52:04.374Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2589,7 +2589,7 @@
         },
         "copy": {
           "de-DE": "Nun, da Sie den Contentful `Client` konfiguriert haven, können Sie ihn benutzen um alle Einträge, sog. `Entries`, von Ihrem Space zu laden.",
-          "en-US": "Now that you have configured a Contentful client, you can use it to fetch all the entries in your Contentful space:"
+          "en-US": "Now that you have configured a Contentful client, you can use it to fetch all of the entries in your Contentful space:"
         }
       }
     },
@@ -2605,7 +2605,7 @@
         "id": "15Cx6Bu1Y2qAkyq2yWgkK2",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.224Z",
-        "updatedAt": "2017-11-09T12:07:57.940Z",
+        "updatedAt": "2018-01-29T17:53:47.064Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2617,21 +2617,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 2,
-        "version": 175,
+        "publishedCounter": 3,
+        "version": 177,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 174,
+        "publishedVersion": 176,
         "firstPublishedAt": "2017-11-08T16:07:41.674Z",
-        "publishedAt": "2017-11-09T12:07:57.940Z",
+        "publishedAt": "2018-01-29T17:53:47.064Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2646,7 +2646,7 @@
         },
         "copy": {
           "de-DE": "Benutzen Sie das SDK in ihrem eigenen Projekt und inizialisieren Sie den `Client` wie folgt:\n\n1. Fügen Sie den `import`-Ausdruck an.\n2. Konfigurieren Sie den `Client` mit der Space ID und dem Content Delivery Token.",
-          "en-US": "Include the SDK in your project and initialize a client: \n1. Add the import statement.\n2. Configure a client with your space ID and Content Delivery API token."
+          "en-US": "Include the SDK in your project and initialize a client: \n\n1. Add the import statement\n2. Configure a client with your space ID and Content Delivery API token"
         }
       }
     },
@@ -2742,7 +2742,7 @@
         "id": "1wMm7tnKi0kIYsI24eYiKS",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.334Z",
-        "updatedAt": "2017-11-09T12:18:55.397Z",
+        "updatedAt": "2018-01-29T17:51:42.735Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2754,21 +2754,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 4,
-        "version": 321,
+        "publishedCounter": 5,
+        "version": 357,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 320,
+        "publishedVersion": 356,
         "firstPublishedAt": "2017-11-08T16:07:44.348Z",
-        "publishedAt": "2017-11-09T12:18:55.397Z",
+        "publishedAt": "2018-01-29T17:51:42.735Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2783,7 +2783,7 @@
         },
         "copy": {
           "de-DE": "Bevor Sie Inhalte veröffentlichen, können Sie sie mittels unserer Content Preview API ansehen. Die Preview API und Delivery API akzeptieren beide die gleichen Parameter und liefern die gleichen `payload`-Strukturen zurück.\n\nUm Inhalte im Entwurfs-Zustand zu laden, müssen Sie die Konfiguration des `Clients` um den Preview API Token erweitern:",
-          "en-US": "Before you publish your content, you can preview it using the Content Preview API. The Preview API and Delivery API both accept the same parameters and return the same payload structures.\n\nTo fetch preview content, change the configuration of the client to use the Preview API token:"
+          "en-US": "Before publishing your content, you can preview it using the Content Preview API. The Preview API and Delivery API both accept the same parameters and return the same payload structures.\n\nTo fetch preview content, change the configuration of the client to use the Preview API token:"
         }
       }
     },
@@ -2879,7 +2879,7 @@
         "id": "4ZQtjYftNKaoKWuksM0sS0",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.430Z",
-        "updatedAt": "2017-11-30T09:59:58.871Z",
+        "updatedAt": "2018-02-01T13:53:26.380Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2891,21 +2891,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 4,
-        "version": 336,
+        "publishedCounter": 7,
+        "version": 532,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 324,
+        "publishedVersion": 527,
         "firstPublishedAt": "2017-11-08T16:07:47.219Z",
-        "publishedAt": "2017-11-09T12:34:07.280Z",
+        "publishedAt": "2018-02-01T13:53:16.844Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2919,8 +2919,8 @@
           "en-US": "Fetch draft content > footnote"
         },
         "copy": {
-          "de-DE": "Diese Beispielanwendung is so konfiguriert worden, dass sie sich sowohl mit der Deliver API als auch der Preview API verbinden kann.\n\nZum Spaß können Sie die Formatierung des Wortes *Pizza* ändern, indem sie im oberen Menü die Auswahl von `API: Preview (unveröffentlichter Inhalt)` auf `API: Delivery (veröffentlichter Inhalt)` ändern.",
-          "en-US": "The example app is configured to connect to both the Delivery API and the Preview API. \n\nFor fun, change the formatting of *pizza* by going to the menu item `API: Content Delivery API` and selecting `API: Content Preview API`."
+          "de-DE": "Diese Beispielanwendung is so konfiguriert worden, dass sie sich sowohl mit der Deliver API als auch der Preview API verbinden kann.\n\nZum Spaß können Sie die Formatierung des Wortes **Pizza** ändern, indem sie im oberen Menü die Auswahl von `API: Preview (unveröffentlichter Inhalt)` auf `API: Delivery (veröffentlichter Inhalt)` ändern.\n\n> Hinweis: Die Content Preview API ist nicht hinter einem Cache und daher etwas langsamer als die Delivery API.",
+          "en-US": "The example app is configured to connect to both the Delivery API and the Preview API. \n\nFor fun, change the formatting of **pizza** by going to `API: Content Delivery API` in the top menu bar and selecting `API: Content Preview API`.\n\n> Note: The Content Preview API is not behind a CDN cache and hence might take a short moment to load for you."
         }
       }
     },
@@ -2936,7 +2936,7 @@
         "id": "5u5i90HuEgcOYKacSoMEG6",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.445Z",
-        "updatedAt": "2017-11-08T16:07:48.451Z",
+        "updatedAt": "2018-01-22T12:43:45.902Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2948,21 +2948,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 7,
         "firstPublishedAt": "2017-11-08T16:07:48.451Z",
-        "publishedAt": "2017-11-08T16:07:48.451Z",
+        "publishedAt": "2018-01-22T12:43:45.902Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2973,7 +2973,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Serve localized content > Fetch - Code "
+          "en-US": "Serve localized content > fetch code"
         },
         "curl": {
           "en-US": "entry = client.entry('2uNOpLMJioKeoMq8W44uYc', locale: 'de-DE')\nputs(entry.fields)"
@@ -3016,7 +3016,7 @@
         "id": "2tV9n41tryO2QMwIkQUQeQ",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.799Z",
-        "updatedAt": "2017-11-09T12:25:57.216Z",
+        "updatedAt": "2018-01-29T17:48:01.744Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3028,21 +3028,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 2,
-        "version": 92,
+        "publishedCounter": 3,
+        "version": 95,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 91,
+        "publishedVersion": 94,
         "firstPublishedAt": "2017-11-08T16:07:50.115Z",
-        "publishedAt": "2017-11-09T12:25:57.216Z",
+        "publishedAt": "2018-01-29T17:48:01.744Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3057,7 +3057,7 @@
         },
         "copy": {
           "de-DE": "Falls Sie verschiedene Sprachen in ihrem `Content Model` benutzen, können sie den übersetzten Inhalt wie folgt erhalten:",
-          "en-US": "If you have configured different locales within your content model, you can fetch localized content:"
+          "en-US": "If you have configured different locales within your content model, you can fetch that localized content:"
         }
       }
     },
@@ -3073,7 +3073,7 @@
         "id": "58B62ubQbmIOiAkmq44kAo",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.806Z",
-        "updatedAt": "2017-11-09T12:28:11.451Z",
+        "updatedAt": "2018-01-29T16:55:46.282Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3085,21 +3085,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 2,
-        "version": 121,
+        "publishedCounter": 5,
+        "version": 181,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 120,
+        "publishedVersion": 180,
         "firstPublishedAt": "2017-11-08T16:07:51.202Z",
-        "publishedAt": "2017-11-09T12:28:11.450Z",
+        "publishedAt": "2018-01-29T16:55:46.281Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3110,11 +3110,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "Serve localized content > Code - Success"
+          "en-US": "Serve localized content > code success"
         },
         "copy": {
           "de-DE": "Nun können sie die Sprache von Deutsch auf Englisch ändern, indem sie im obigen Menü den Eintrag `Sprache: German` auf `US English` ändern.",
-          "en-US": "Switch to the language from English to German by going to the menu item Locale: `U.S. English` and selecting `German`."
+          "en-US": "Switch the language of this text from English to German by going to `Locale: U.S. English` in the top menu bar and selecting `German`."
         }
       }
     },
@@ -3130,7 +3130,7 @@
         "id": "4Ng6zmj9e8Sw0eaYKQM8Es",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:59.865Z",
-        "updatedAt": "2017-11-09T12:37:53.726Z",
+        "updatedAt": "2018-02-01T13:42:52.975Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3142,21 +3142,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 6,
-        "version": 377,
+        "publishedCounter": 11,
+        "version": 546,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 376,
+        "publishedVersion": 545,
         "firstPublishedAt": "2017-11-08T16:07:54.066Z",
-        "publishedAt": "2017-11-09T12:37:53.726Z",
+        "publishedAt": "2018-02-01T13:42:52.975Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3167,67 +3167,11 @@
       },
       "fields": {
         "title": {
-          "en-US": "How the example is built > summary"
+          "en-US": "Hello SDKs > summary copy"
         },
         "copy": {
-          "de-DE": "Nun wissen Sie wie diese Beispielanwendung gebaut mittels eines Contentful SDKs gebaut wurde. Um Ihr Verständnis zu vertiefen, empfehlen wir Ihnen den Quellcode dieser Anwendung herunterzuladen und zu studieren. Falls Sie weitere Fragen haben, sthen wir Ihnen gerne mit unserer [Contentful Community](https://www.contentfulcommunity.com/) oder unserem [Support](https://www.contentful.com/support/) stets gerne zur Verfügung.",
-          "en-US": "You now know how the example app was built using a Contentful SDK. To deepen your understanding, download the source code and interact with it. If you have a question, you can ask the [Contentful Community](https://www.contentfulcommunity.com/) or [contact support](https://www.contentful.com/support/)."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qz0n5cdakyl9"
-          }
-        },
-        "id": "3pESAVKLTqkYwYOkkeKEwk",
-        "type": "Entry",
-        "createdAt": "2017-11-22T09:39:04.988Z",
-        "updatedAt": "2017-11-22T09:39:14.747Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2017-11-22T09:39:14.747Z",
-        "publishedAt": "2017-11-22T09:39:14.747Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "lessonCopy"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Understanding context vs content > Copy"
-        },
-        "copy": {
-          "en-US": "## Understanding context vs content\n\nAn important thing we should understand is the difference between a _context_ content type and a _content_ content type. The difference is subtle but important. While they are both used to store data, their purpose is different. In fact, one (_context_) will be used to describe a webpage, a view in an app, or any other concept that is context-dependent. These content types will often contain certain metadata which is necessary for the app to work: for instance, the content type called _Course_ contains the field `slug`. Although this field is not necessarily shown in the webpage you see about the course, it is necessary for the app in order for the routing mechanism to work. This field is very much context-aware: it is useful only when working in a website context, whereas it becomes almost meaningless in an app.\n\nThe opposite of this kind of content types are those whose main purpose is to store content. In this app, these content types are called _modules_. Although they can still store metadata (in fact, some of those also contain a `slug` field), it's usually for convenience rather than for actual need. They are almost never used standalone, as they usually behave more as building blocks that are implemented by context content types.\n\nOf course, not everything's black or white. Although separating context and content is usually a good design pattern which helps scaling, not all situations are complex enough that this makes sense. To sum up, when you think about how to design a content model, ask yourself: _does it make sense to break this into reusable bits?_ Sometimes you can sacrifice some flexibility in the name of ease of use: if the requirements are not too complex, it's a perfectly valid choice."
+          "de-DE": "Nun wissen Sie wie diese Beispielanwendung mit einem Contentful SDK gebaut wurde. Um Ihr Verständnis zu vertiefen, empfehlen wir Ihnen den Quellcode dieser Anwendung herunterzuladen und zu studieren. Falls Sie weitere Fragen haben, stehen wir Ihnen gerne mit unserer [Contentful Community](https://www.contentfulcommunity.com/) oder unserem [Support](https://www.contentful.com/support/) zur Verfügung. Alternativ besuchen Sie unsere [tutorials](https://www.contentful.com/developers/docs/tutorials/) in der Developer Dokumentation. ",
+          "en-US": "Congratulations! Now you know how the example app was built using the Contentful SDK. Feel free download the source code and interact with it. If you have any questions, head over to the [Contentful Community](https://www.contentfulcommunity.com/) forum or [contact support](https://www.contentful.com/support/). Or head to our [tutorials section](https://www.contentful.com/developers/docs/tutorials/) in the developer documentation "
         }
       }
     },
@@ -3243,7 +3187,7 @@
         "id": "3UVMv9wHuw4auWMQ0qSamY",
         "type": "Entry",
         "createdAt": "2017-11-22T09:39:07.030Z",
-        "updatedAt": "2017-12-13T14:05:43.187Z",
+        "updatedAt": "2018-01-29T17:06:37.402Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3255,21 +3199,21 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedCounter": 7,
-        "version": 601,
+        "publishedCounter": 8,
+        "version": 619,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
+            "id": "1V4ddyc2isgYcs9sf9fCUI"
           }
         },
-        "publishedVersion": 600,
+        "publishedVersion": 618,
         "firstPublishedAt": "2017-11-22T09:39:13.856Z",
-        "publishedAt": "2017-12-13T14:05:43.187Z",
+        "publishedAt": "2018-01-29T17:06:37.402Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3284,7 +3228,7 @@
         },
         "copy": {
           "de-DE": "## Validierung von Feldern\nMit Hilfe von Validierungsregeln kann eine gewisse Konsistenz erzwungen werden. So kann z.B. verhindert werden, dass ungütlige Daten eine Anwendung zum Absturz bringen.\n\nBeispiele für geläufige Validierungsregeln sind Limitierungen der Zeichenanzahl, erzwingen von gewissen Werten wie z.B. `Anfänger(in)`, `Fortgeschrittene(r)`, `Profi`. Auf den folgenden Seiten können Sie mehr über Validierung von feldern lernen:\n\n- [Fields](https://www.contentful.com/developers/docs/concepts/data-model/#fields)\n- [Available validations](https://www.contentful.com/r/knowledgebase/validations/#available-validations)\n\n![Screenshot: web app validations](//images.contentful.com/qz0n5cdakyl9/6n41KgxfwWmmeCiSemIsK2/8fe64869042e65dddb5178164bd2264f/validations.png)\n\nValidierung in der Contentful web app.",
-          "en-US": "## Field validation\nBy creating validation rules at the field level, you can ensure that information is handled consistently. An example of why this is important is that you could prevent malformed data from crashing an application in production.\n\nExamples of common validation rules for fields are character limits, and enforcing specific values, such as `Beginner`, `Intermediate`, and `Advanced`. See the following resources for a complete list of fields and available field validations:\n\n- [Fields](https://www.contentful.com/developers/docs/concepts/data-model/#fields)\n- [Available validations](https://www.contentful.com/r/knowledgebase/validations/#available-validations)\n\n![Screenshot: web app validations](//images.contentful.com/qz0n5cdakyl9/6n41KgxfwWmmeCiSemIsK2/8fe64869042e65dddb5178164bd2264f/validations.png)\n\nExample validations within the Contentful web app."
+          "en-US": "## Field validation\nCreating validation rules at the field level ensures that information is handled consistently. An example of why this is important is that you could prevent malformed data from crashing an application in production.\n\nSome other common validation rules for fields include character limits and enforcing specific values, such as `Beginner`, `Intermediate`, or `Advanced`. The following resources have a complete list of fields and available field validations:\n\n- [Fields](https://www.contentful.com/developers/docs/concepts/data-model/#fields)\n- [Available validations](https://www.contentful.com/r/knowledgebase/validations/#available-validations)\n\n![Screenshot: web app validations](//images.contentful.com/qz0n5cdakyl9/6n41KgxfwWmmeCiSemIsK2/8fe64869042e65dddb5178164bd2264f/validations.png)\n\n_The proceeding screenshot shows example validations within the Contentful web app._"
         }
       }
     },
@@ -3297,50 +3241,51 @@
             "id": "qz0n5cdakyl9"
           }
         },
-        "id": "sGBeUcIxhYM0qg2YYis4W",
+        "id": "77NL8rGPks6SauGuoG8ui",
         "type": "Entry",
-        "createdAt": "2017-11-22T09:39:07.048Z",
-        "updatedAt": "2017-11-30T09:40:26.903Z",
+        "createdAt": "2017-12-12T14:02:49.950Z",
+        "updatedAt": "2017-12-14T17:44:39.996Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "08JDkM79BdUNkxcmfnt78J"
-          }
-        },
-        "publishedVersion": 3,
-        "firstPublishedAt": "2017-11-22T09:39:12.991Z",
-        "publishedAt": "2017-11-30T09:40:26.903Z",
+        "publishedCounter": 1,
+        "version": 58,
+        "firstPublishedAt": "2017-12-12T14:13:06.232Z",
         "contentType": {
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "lessonCopy"
+            "id": "layoutHeroImage"
           }
         }
       },
       "fields": {
         "title": {
-          "en-US": "Your first content type > footnote"
+          "en-US": "Home > Hero image"
         },
-        "copy": {
-          "en-US": "New to JSON? In JSON, there is small set of valid field types: string, number, boolean, array, and nested JSON object."
+        "headline": {
+          "de-DE": "Grüße von Contentful",
+          "en-US": "Greetings from Contentful"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4dgP2U7BeMuk0icguS4qGw"
+            }
+          }
         }
       }
     },
@@ -3670,7 +3615,7 @@
         "id": "3op5VIqGZiwoe06c8IQIMO",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:56.684Z",
-        "updatedAt": "2017-12-12T12:43:09.595Z",
+        "updatedAt": "2018-02-01T13:41:46.599Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3685,8 +3630,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 2,
-        "version": 19,
+        "publishedCounter": 3,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3694,9 +3639,9 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 18,
+        "publishedVersion": 29,
         "firstPublishedAt": "2017-11-08T16:07:14.532Z",
-        "publishedAt": "2017-12-12T12:43:09.595Z",
+        "publishedAt": "2018-02-01T13:41:46.599Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3707,11 +3652,11 @@
       },
       "fields": {
         "title": {
-          "de-DE": "Architektur",
-          "en-US": "Architecture"
+          "de-DE": "APIs",
+          "en-US": "APIs"
         },
         "slug": {
-          "en-US": "architecture"
+          "en-US": "apis"
         },
         "modules": {
           "en-US": [
@@ -3827,7 +3772,7 @@
         "id": "1toEOumnkEksWakieoeC6M",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:56.662Z",
-        "updatedAt": "2017-12-14T17:28:58.754Z",
+        "updatedAt": "2018-02-01T13:42:38.475Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3842,8 +3787,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 7,
-        "version": 33,
+        "publishedCounter": 9,
+        "version": 237,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3851,9 +3796,9 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 32,
+        "publishedVersion": 236,
         "firstPublishedAt": "2017-11-08T16:07:12.814Z",
-        "publishedAt": "2017-12-14T17:28:58.754Z",
+        "publishedAt": "2018-02-01T13:42:38.475Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3884,11 +3829,11 @@
           "en-US": "Learn how to build your own applications with Contentful."
         },
         "description": {
-          "de-DE": "Diese Beispielanwendung hilft Ihnen, Ihre eigene Anwendung mittels Contentful zu bauen. Sie enthält Module, die Ihnen verschiedene Grundkonzepte näher bringen, Content-Modellierung erklärt und sie erläutert, wie Ihre eigene Anwendung Inhalt von Contentful verarbeitet. Der Inhalt wird von den APIs von Contentful unter zuhilfenahme von Contentful SDKs zurverfügung gestellt. \n\nDie Benutzeroberfläche dieses Beispieles wird nur von dem Beispiel selbst benutzt und bediehnt sich _keines_ Templates. Dies ist Absicht, da es sich bei Contentful um ein `Headless CMS` handelt. Was dies bedeuted, wird später nocheinmal verdeutlicht.   \n\nFolgende Themen werden von diesem Kurs abgehandelt:\n\n- **Die Architektur von Contentful**: Komponenten von Contentful.\n- **Content-Modellierung**: Das Content-Modell der Anwendung.\n- **Integration mit Contentful**: Wie wurde diese Anwendung mit Contentful verbunden?",
-          "en-US": "This example app helps you build your own application using Contentful. The app contains modules that introduce you to core concepts, content modelling, and how your app consumes content from Contentful. The content is pulled from Contentful APIs using a Contentful SDK.\n\nThe user interface of this example app is unique to this application and is _not_ a template. This is intentional, and it touches an aspect of a headless CMS that will be covered later.\n\nThis course covers the following topics:\n\n- **Contentful's architecture:**: Basic components of Contentful\n- **Content modelling**: The application's content model\n- **Integrating with Contentful**: Connecting this application to Contentful"
+          "de-DE": "Diese Beispielanwendung hilft Ihnen, Ihre eigene Anwendung mittels Contentful zu bauen. Sie enthält Module, die Ihnen verschiedene Grundkonzepte näher bringen, Content-Modellierung erklärt und sie erläutert, wie Ihre eigene Anwendung Inhalt von Contentful verarbeitet. Der Inhalt wird von den APIs von Contentful unter zuhilfenahme von Contentful SDKs zurverfügung gestellt. \n\nDie Benutzeroberfläche dieses Beispieles wird nur von dem Beispiel selbst benutzt und bediehnt sich _keines_ Templates. Dies ist Absicht, da es sich bei Contentful um ein `Headless CMS` handelt. Was dies bedeuted, wird später nocheinmal verdeutlicht.   \n\nFolgende Themen werden von diesem Kurs abgehandelt:\n\n- **Die APIs von Contentful**: Komponenten von Contentful.\n- **Content-Modellierung**: Das Content-Modell der Anwendung.\n- **Integration mit Contentful**: Wie wurde diese Anwendung mit Contentful verbunden?",
+          "en-US": "This course helps you understand the basics behind Contentful. It contains modules that introduce you to core concepts and how your app consumes content from Contentful. This content is pulled from Contentful APIs using a Contentful SDK.\n\nThe user interface of this example app is unique to this application and is _not_ a template. This is intentional, and it touches an aspect of Contentful's API-first approach that we'll discuss later.\n\nThe Hello Contentful course covers the following topics:\n\n- **Contentful's APIs**: Basic components of Contentful\n- **Content modelling**: How content is structured within Contentful\n- **Authoring content**: Connecting this application to Contentful's web app"
         },
         "duration": {
-          "en-US": 5
+          "en-US": 23
         },
         "skillLevel": {
           "en-US": "beginner"
@@ -4182,7 +4127,7 @@
         "id": "34MlmiuMgU8wKCOOIkAuMy",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:56.113Z",
-        "updatedAt": "2017-12-14T14:40:45.788Z",
+        "updatedAt": "2018-02-01T13:39:38.239Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4197,8 +4142,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 10,
-        "version": 360,
+        "publishedCounter": 13,
+        "version": 369,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4206,9 +4151,9 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 359,
+        "publishedVersion": 368,
         "firstPublishedAt": "2017-11-08T16:07:04.870Z",
-        "publishedAt": "2017-12-14T14:40:45.788Z",
+        "publishedAt": "2018-02-01T13:39:38.239Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -4230,7 +4175,7 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "2KUZRfRHgk8Q8MqOYaa4aA"
+              "id": "6nvWJT1AkM64so8Auue4QQ"
             }
           }
         },
@@ -4240,7 +4185,7 @@
         },
         "description": {
           "de-DE": "Sobald Sie sich den Quellcode der Besipielanwendung ansehen, werden Sie ein Gespür entwickeln, wie Sie am besten die Contentful SDKs in Ihrer Programmiersprache benutzen. Für weitere, fremde Abhängigkeiten, schauen Sie bitte in der jewiligen Dokumentation nach.",
-          "en-US": "By looking at the code of the example app, you will get a sense of how to use a Contentful SDK in your programming language. For any third-party dependency, refer to its documentation."
+          "en-US": "By looking at the code of the example app, you'll get a sense of how to use a Contentful SDK in your favorite programming language."
         },
         "duration": {
           "en-US": 5
@@ -4374,7 +4319,7 @@
         "id": "2uNOpLMJioKeoMq8W44uYc",
         "type": "Entry",
         "createdAt": "2017-11-08T16:06:56.098Z",
-        "updatedAt": "2017-12-12T14:13:22.957Z",
+        "updatedAt": "2018-01-24T11:37:16.429Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4390,7 +4335,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 5,
+        "version": 27,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4423,6 +4368,13 @@
                 "type": "Link",
                 "linkType": "Entry",
                 "id": "4B9n4zqG6QCgui8YiUs4Yc"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "77NL8rGPks6SauGuoG8ui"
               }
             }
           ]
@@ -4487,69 +4439,6 @@
             },
             "fileName": "contentful-four-apis.svg",
             "contentType": "image/svg+xml"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qz0n5cdakyl9"
-          }
-        },
-        "id": "2KUZRfRHgk8Q8MqOYaa4aA",
-        "type": "Asset",
-        "createdAt": "2017-11-08T16:06:30.895Z",
-        "updatedAt": "2017-12-11T15:06:21.757Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7uJNojWP0gbuP7Pplz7Syo"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 19,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6t2V5yOym8WNTOgd6uVVYa"
-          }
-        },
-        "publishedVersion": 18,
-        "firstPublishedAt": "2017-11-08T16:06:53.236Z",
-        "publishedAt": "2017-12-11T15:06:21.757Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Course title: SDK"
-        },
-        "description": {
-          "en-US": "An image showing CMS as Code"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/qz0n5cdakyl9/2KUZRfRHgk8Q8MqOYaa4aA/bfb93db143c0447d9bce250bc9f350e9/Contentful_Architecture_101.jpg",
-            "details": {
-              "size": 85890,
-              "image": {
-                "width": 1500,
-                "height": 843
-              }
-            },
-            "fileName": "Contentful Architecture 101.jpg",
-            "contentType": "image/jpeg"
           }
         }
       }
@@ -4866,7 +4755,7 @@
         "id": "6nvWJT1AkM64so8Auue4QQ",
         "type": "Asset",
         "createdAt": "2017-11-09T09:28:03.721Z",
-        "updatedAt": "2017-12-11T15:06:45.193Z",
+        "updatedAt": "2018-01-24T13:33:17.092Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4881,8 +4770,8 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedCounter": 2,
-        "version": 24,
+        "publishedCounter": 3,
+        "version": 34,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4890,13 +4779,14 @@
             "id": "6t2V5yOym8WNTOgd6uVVYa"
           }
         },
-        "publishedVersion": 23,
+        "publishedVersion": 33,
         "firstPublishedAt": "2017-11-09T09:30:56.109Z",
-        "publishedAt": "2017-12-11T15:06:45.193Z"
+        "publishedAt": "2018-01-24T13:33:17.092Z"
       },
       "fields": {
         "title": {
-          "en-US": "Course title: hello world"
+          "de-DE": "",
+          "en-US": "Contentful hero"
         },
         "file": {
           "en-US": {
@@ -4972,6 +4862,66 @@
               }
             },
             "fileName": "validations.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qz0n5cdakyl9"
+          }
+        },
+        "id": "4dgP2U7BeMuk0icguS4qGw",
+        "type": "Asset",
+        "createdAt": "2017-12-12T14:03:25.362Z",
+        "updatedAt": "2017-12-12T14:17:13.653Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6t2V5yOym8WNTOgd6uVVYa"
+          }
+        },
+        "publishedVersion": 8,
+        "firstPublishedAt": "2017-12-12T14:12:34.698Z",
+        "publishedAt": "2017-12-12T14:12:34.698Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "contentful-team"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/qz0n5cdakyl9/4dgP2U7BeMuk0icguS4qGw/52cdd3491ac9824da1b1ae2c51a6c30c/Contentful_team.png",
+            "details": {
+              "size": 2492830,
+              "image": {
+                "width": 1500,
+                "height": 1016
+              }
+            },
+            "fileName": "Contentful_team.png",
             "contentType": "image/png"
           }
         }

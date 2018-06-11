@@ -2,7 +2,7 @@ Content model: The example app
 ================================
 
 The example app content model containts the model for all the example apps, demonstrating in a broader fashion some examples on how to use
-Contentful. If you want to see the model in action, we have a [hosted version](https://the-example-app-nodejs.herokuapp.com/), for you
+Contentful. If you want to see the model in action, we have a [hosted version](https://the-example-app-nodejs.contentful.com/), for you
 to check out.
 
 Through our [command line app](https://github.com/contentful/contentful-cli) you can import this model into your own space. Doing so will be
@@ -31,13 +31,13 @@ The content model `The example app` is used in platform specific example apps to
 
 | Platform  | Repository | Hosted version |
 | - | - | - |
-| node.js | [https://github.com/contentful/the-example-app.nodejs](https://github.com/contentful/the-example-app.nodejs) | [the-example-app-nodejs.herokuapp.com](the-example-app-nodejs.herokuapp.com) |
+| node.js | [https://github.com/contentful/the-example-app.nodejs](https://github.com/contentful/the-example-app.nodejs) | [the-example-app-nodejs.contentful.com](the-example-app-nodejs.contentful.com) |
 
 
 Versions
 ========
 
-We are hosting different versions of this content model for demo purposes. `The Example App` can be connected to these versions through `variables.env` when run locally or through query parameters when hosted. For example: `https://the-example-app-nodejs.herokuapp.com/?space_id=<YOUR_CLONED_SPACE_ID>&delivery_token=<YOUR_DELIVERY_TOKEN>&preview_token=<YOUR_PREVIEW_TOKEN>`
+We are hosting different versions of this content model for demo purposes. `The Example App` can be connected to these versions through `variables.env` when run locally or through query parameters when hosted. For example: `https://the-example-app-nodejs.contentful.com/?space_id=<YOUR_CLONED_SPACE_ID>&delivery_token=<YOUR_DELIVERY_TOKEN>&preview_token=<YOUR_PREVIEW_TOKEN>`
 
 | Version  | Space Id | Access tokens |
 | - | - | - |

@@ -1897,7 +1897,7 @@
           "en-US": "Summary > copy"
         },
         "copy": {
-          "de-DE": "In diesem Kurs haben sie die grundlegenden Konzepte von Contentful kennengelernt:\n\n- `API-first`-Denkweise von Contentful erleichtert die Verbindung von Contentful und Contentful-fremden Systemen.\n- Contentful ist `headless` und bietet sowohl JSON als auch binäre Antworten an.\n- Eine `Client`-Anwendung die Inhalte von Contentful verarbeitet, hat stets die volle Kontrolle über visuelle representation des Inhalts.\n- Datenmodellierung innerhalb von Contentful benutzt flexible Content Typen, die entkoppelt von der Presentation ist.\n- Die Contentful Web-Anwendung ist ein einfach zu verwendender Editor.",
+          "de-DE": "In diesem Kurs haben Sie die grundlegenden Konzepte von Contentful kennengelernt:\n\n- `API-first`-Denkweise von Contentful erleichtert die Verbindung von Contentful und Contentful-fremden Systemen.\n- Contentful ist `headless` und bietet sowohl JSON als auch binäre Antworten an.\n- Eine `Client`-Anwendung die Inhalte von Contentful verarbeitet, hat stets die volle Kontrolle über visuelle representation des Inhalts.\n- Datenmodellierung innerhalb von Contentful benutzt flexible Content Typen, die entkoppelt von der Presentation ist.\n- Die Contentful Web-Anwendung ist ein einfach zu verwendender Editor.",
           "en-US": "In this course, we went through the basic concepts of Contentful:\n\n- Contentful’s API-first approach facilitates connecting Contentful with third-party systems\n- Contentful has no built-in templates and provides JSON as well as binaries as outputs\n- A client application created with Contentful is in full control of its presentation\n- Data modeling with Contentful uses flexible content types that are decoupled from presentation\n- The Contentful web app is an easy-to-use editor for authoring content\n\nIf you have any questions, head over to the [Contentful Community](https://www.contentfulcommunity.com/) forum or [contact support](https://www.contentful.com/support/).\n"
         }
       }
@@ -1954,7 +1954,7 @@
           "en-US": "SDK basics > SDK initialization - API token tip"
         },
         "copy": {
-          "de-DE": "Sind APIs neu für Sie? Ein API Token stellt sicher, das nur authorisierte Personen oder Anwendungen Zugriff auf ihren Space haben.",
+          "de-DE": "Sind APIs neu für Sie? Ein API Token stellt sicher, das nur authorisierte Personen oder Anwendungen Zugriff auf Ihren Space haben.",
           "en-US": "New to APIs? An API token ensures that only an authorized person or application can pull content from your space."
         }
       }
@@ -2077,7 +2077,7 @@
           "en-US": "Content management > copy"
         },
         "copy": {
-          "de-DE": "Der Aufbau einer einfachen Anwendung die Contentful benutzt, besteht aus einer Anwendung, die den Inhalt liest, wie zum Beispiel diese Beispielanwendung und einer Weiteren, die den Inhalt erzeugt und verändert. Dies ist die Contentful Web-Anwendung. Die Anwendung liest den Inhalt, indem sie sich mit der Content Delivery API verbindet. Die Contentful Web-Anwendung schreibt Inhalt indem sie mit der Content Management API verbunden ist:\n\n![minimal contentful setup](//images.contentful.com/qz0n5cdakyl9/3z7ErmBLIccwQkQkuEY0w4/792f81c7d92d195abf89ea936071d1f6/webapp-contentful-example-app.svg)\n\nDie *Contentful Web-Anwendung* ist eine _single page_ Anwendung, die von Contentful zur Verfügung gestellt wird, um alle Aufgaben rund ums Content Management zu erledigen:\n\n- Schreiben von Inhalten durch Autoren.\n- Einrichten des Spaces, der Content Types, Zugriffsrechte und Webhook-Benachrichtigungen durch Entwickler.\n\nWie bereits erwähnt, benutzt die Contentful Web-Anwendung die Content Management API. Daher können Sie diese Funktionen selber nachbauen, indem Sie die gleichen API-Anfragen durchführen. Dies ist ein sehr mächtiger Aspekt der _API-First_-Sichtweise, da sie Ihnen hilft Contentful in Contentful-fremden Systemen einzusetzen.",
+          "de-DE": "Der Aufbau einer einfachen Anwendung die Contentful benutzt, besteht aus einer Anwendung, die den Inhalt liest, wie zum Beispiel diese Beispielanwendung und einer Weiteren, die den Inhalt erzeugt und verändert. Dies ist die Contentful Web-Anwendung. Die Anwendung liest den Inhalt, indem Sie sich mit der Content Delivery API verbindet. Die Contentful Web-Anwendung schreibt Inhalt indem sie mit der Content Management API verbunden ist:\n\n![minimal contentful setup](//images.contentful.com/qz0n5cdakyl9/3z7ErmBLIccwQkQkuEY0w4/792f81c7d92d195abf89ea936071d1f6/webapp-contentful-example-app.svg)\n\nDie *Contentful Web-Anwendung* ist eine _single page_ Anwendung, die von Contentful zur Verfügung gestellt wird, um alle Aufgaben rund ums Content Management zu erledigen:\n\n- Schreiben von Inhalten durch Autoren.\n- Einrichten des Spaces, der Content Types, Zugriffsrechte und Webhook-Benachrichtigungen durch Entwickler.\n\nWie bereits erwähnt, benutzt die Contentful Web-Anwendung die Content Management API. Daher können Sie diese Funktionen selber nachbauen, indem Sie die gleichen API-Anfragen durchführen. Dies ist ein sehr mächtiger Aspekt der _API-First_-Sichtweise, da sie Ihnen hilft Contentful in Contentful-fremden Systemen einzusetzen.",
           "en-US": "A basic Contentful setup consists of a client application reading content, this example app for instance, and another application that is writing content, like the Contentful web app. The client application is reading content by connecting to the Content Delivery API. The Contentful web app, on the other hand, is writing content by connecting to the Content Mangement API:\n\n![minimal contentful setup](//images.contentful.com/qz0n5cdakyl9/3z7ErmBLIccwQkQkuEY0w4/792f81c7d92d195abf89ea936071d1f6/webapp-contentful-example-app.svg)\n\nThe Contentful web app is a single page application created by Contentful and assists with common content management tasks. The Contentful web app provides:\n\n-  An interface for editors to write content\n- An interface for developers to configure a space, model data, define roles and permissions, and set up webhook notifications\n\nAs mentioned, the Contentful web app is a client that uses the Content Management API. Therefore, you could replicate the functionality that the Contentful web app provides by making an API call. This is a powerful aspect of an API-first design because it helps you to connect Contentful to third-party systems."
         }
       }
@@ -2645,7 +2645,7 @@
           "en-US": "SDK basics > SDK initialization"
         },
         "copy": {
-          "de-DE": "Benutzen Sie das SDK in ihrem eigenen Projekt und inizialisieren Sie den `Client` wie folgt:\n\n1. Fügen Sie den `import`-Ausdruck an.\n2. Konfigurieren Sie den `Client` mit der Space ID und dem Content Delivery Token.",
+          "de-DE": "Benutzen Sie das SDK in Ihrem eigenen Projekt und inizialisieren Sie den `Client` wie folgt:\n\n1. Fügen Sie den `import`-Ausdruck an.\n2. Konfigurieren Sie den `Client` mit der Space ID und dem Content Delivery Token.",
           "en-US": "Include the SDK in your project and initialize a client: \n\n1. Add the import statement\n2. Configure a client with your space ID and Content Delivery API token"
         }
       }
@@ -2919,7 +2919,7 @@
           "en-US": "Fetch draft content > footnote"
         },
         "copy": {
-          "de-DE": "Diese Beispielanwendung is so konfiguriert worden, dass sie sich sowohl mit der Deliver API als auch der Preview API verbinden kann.\n\nZum Spaß können Sie die Formatierung des Wortes **Pizza** ändern, indem sie im oberen Menü die Auswahl von `API: Preview (unveröffentlichter Inhalt)` auf `API: Delivery (veröffentlichter Inhalt)` ändern.\n\n> Hinweis: Die Content Preview API ist nicht hinter einem Cache und daher etwas langsamer als die Delivery API.",
+          "de-DE": "Diese Beispielanwendung is so konfiguriert worden, dass sie sich sowohl mit der Deliver API als auch der Preview API verbinden kann.\n\nZum Spaß können Sie die Formatierung des Wortes **Pizza** ändern, indem Sie im oberen Menü die Auswahl von `API: Preview (unveröffentlichter Inhalt)` auf `API: Delivery (veröffentlichter Inhalt)` ändern.\n\n> Hinweis: Die Content Preview API ist nicht hinter einem Cache und daher etwas langsamer als die Delivery API.",
           "en-US": "The example app is configured to connect to both the Delivery API and the Preview API. \n\nFor fun, change the formatting of **pizza** by going to `API: Content Delivery API` in the top menu bar and selecting `API: Content Preview API`.\n\n> Note: The Content Preview API is not behind a CDN cache and hence might take a short moment to load for you."
         }
       }
@@ -3056,7 +3056,7 @@
           "en-US": "Serve localized content > fetching"
         },
         "copy": {
-          "de-DE": "Falls Sie verschiedene Sprachen in ihrem `Content Model` benutzen, können sie den übersetzten Inhalt wie folgt erhalten:",
+          "de-DE": "Falls Sie verschiedene Sprachen in Ihrem `Content Model` benutzen, können Sie den übersetzten Inhalt wie folgt erhalten:",
           "en-US": "If you have configured different locales within your content model, you can fetch that localized content:"
         }
       }
@@ -3113,7 +3113,7 @@
           "en-US": "Serve localized content > code success"
         },
         "copy": {
-          "de-DE": "Nun können sie die Sprache von Deutsch auf Englisch ändern, indem sie im obigen Menü den Eintrag `Sprache: German` auf `US English` ändern.",
+          "de-DE": "Nun können Sie die Sprache von Deutsch auf Englisch ändern, indem Sie im obigen Menü den Eintrag `Sprache: German` auf `US English` ändern.",
           "en-US": "Switch the language of this text from English to German by going to `Locale: U.S. English` in the top menu bar and selecting `German`."
         }
       }

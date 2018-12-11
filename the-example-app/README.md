@@ -31,7 +31,7 @@ The content model `The example app` is used in platform specific example apps to
 
 | Platform  | Repository | Hosted version |
 | - | - | - |
-| node.js | [https://github.com/contentful/the-example-app.nodejs](https://github.com/contentful/the-example-app.nodejs) | [the-example-app-nodejs.contentful.com](the-example-app-nodejs.contentful.com) |
+| node.js | [https://github.com/contentful/the-example-app.nodejs](https://github.com/contentful/the-example-app.nodejs) | [https://the-example-app-nodejs.contentful.com](the-example-app-nodejs.contentful.com) |
 
 
 Versions
